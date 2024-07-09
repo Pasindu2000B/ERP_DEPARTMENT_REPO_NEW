@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PPdrmxqkiEI=",
+  "dgSpecHash": "2E2i/X5H5Jk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BaseApp\\src\\_Shared\\ERP.Messaging.Core\\ERP.Messaging.Core.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BaseApp\\src\\_Shared\\ERP.Messaging.Core\\ERP.Messaging.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\masstransit\\8.1.3\\masstransit.8.1.3.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\masstransit.abstractions\\8.1.3\\masstransit.abstractions.8.1.3.nupkg.sha512",

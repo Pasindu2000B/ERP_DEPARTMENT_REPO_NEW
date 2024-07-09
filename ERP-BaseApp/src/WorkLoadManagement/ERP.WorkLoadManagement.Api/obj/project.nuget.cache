@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0VG15aRLHK0=",
+  "dgSpecHash": "qc23lNFB2Xc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BaseApp\\src\\WorkLoadManagement\\ERP.WorkLoadManagement.Api\\ERP.WorkLoadManagement.Api.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BaseApp\\src\\WorkLoadManagement\\ERP.WorkLoadManagement.Api\\ERP.WorkLoadManagement.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

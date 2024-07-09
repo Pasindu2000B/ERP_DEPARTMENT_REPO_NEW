@@ -1,0 +1,133 @@
+﻿@page "/internship-vacancies"
+
+@using System.Net.Http.Json
+@using ERP.BlazorUI.Components.Pages.Department.Training.DTO
+@using MudBlazor
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+@inject IDialogService DialogService
+@inject ISnackbar Snackbar
+
+@if (_vacancies.Count > 0)
+{
+    <MudTable Items="@_vacancies">
+        <HeaderContent>
+            <MudTh>Title</MudTh>
+            <MudTh>Description</MudTh>
+            <MudTh>Company</MudTh>
+            <MudTh>Actions</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="Title">@context.Title</MudTd>
+            <MudTd DataLabel="Description">@context.Description</MudTd>
+            <MudTd DataLabel="Company">@context.Company</MudTd>
+            <MudTd DataLabel="Actions">
+                <div class="button-group">
+                  
+                    <MudFab Color="Color.Warning" OnClick="@(() => DeleteVacancy(context.Id))"
+                            StartIcon="@Icons.Material.Filled.Delete" Size="Size.Small" />
+                </div>
+            </MudTd>
+        </RowTemplate>
+        <PagerContent>
+            <MudTablePager />
+        </PagerContent>
+    </MudTable>
+}
+else
+{
+    <MudProgressLinear Color="Color.Primary" Size="Size.Large" Indeterminate="true" Class="my-7" />
+}
+
+<MudMessageBox @ref="mbox" Title="Warning" CancelText="Cancel">
+    <MessageContent>
+        Are You Sure to Delete This Internship Vacancy!
+    </MessageContent>
+    <YesButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Error" StartIcon="@Icons.Material.Filled.DeleteForever">Delete!</MudButton>
+    </YesButton>
+</MudMessageBox>
+
+@code {
+    private string buttonGroupStyle = "display: flex; gap: 8px;";
+
+    private HttpClient Http = new HttpClient();
+
+    MudMessageBox mbox { get; set; }
+
+    private List<InternshipVacancyResponse> _vacancies = new List<InternshipVacancyResponse>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            _vacancies = await Http.GetFromJsonAsync<List<InternshipVacancyResponse>>("https://localhost:7270/api/InternshipVacancy/Get");
+        }
+        catch (Exception ex)
+        {
+            _vacancies = null;
+        }
+    }
+
+    // async Task ShowVacancy(Guid vacancyId)
+    // {
+    //     var parameters = new DialogParameters<InternshipVacancyDetailsDialog> { { x => x.VacancyId, vacancyId } };
+
+    //     var options = new DialogOptions
+    //         {
+    //             MaxWidth = MaxWidth.ExtraSmall,
+    //             FullWidth = true,
+    //             Position = DialogPosition.Center,
+    //             CloseOnEscapeKey = true,
+    //             CloseButton = true
+    //         };
+
+    //     var dialog = await DialogService.ShowAsync<InternshipVacancyDetailsDialog>("Internship Vacancy Details", parameters, options);
+    // }
+
+    // async Task EditVacancy(Guid vacancyId)
+    // {
+    //     var parameters = new DialogParameters<EditInternshipVacancyDialog> { { x => x.VacancyId, vacancyId } };
+
+    //     var options = new DialogOptions
+    //         {
+    //             MaxWidth = MaxWidth.ExtraSmall,
+    //             FullWidth = true,
+    //             Position = DialogPosition.CenterLeft,
+    //             CloseOnEscapeKey = true,
+    //             CloseButton = true
+    //         };
+
+    //     var dialog = await DialogService.ShowAsync<EditInternshipVacancyDialog>("Edit Internship Vacancy", parameters, options);
+    //     var result = await dialog.Result;
+
+    //     if (!result.Canceled)
+    //     {
+    // //         _vacancies = await Http.GetFromJsonAsync<List<InternshipVacancyResponse>>("https://localhost:7270/api/InternshipVacancy/Get");
+    // //     }
+    // }
+
+    async Task DeleteVacancy(Guid VacancyId)
+    {
+        bool? result = await mbox.Show();
+        if (result == true)
+        {
+            var response = await Http.DeleteAsync($"https://localhost:7270/api/InternshipVacancy/{VacancyId}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                Snackbar.Add("Internship Vacancy Deleted Successfully", Severity.Success);
+                _vacancies = await Http.GetFromJsonAsync<List<InternshipVacancyResponse>>("https://localhost:7270/api/InternshipVacancy/Get");
+                StateHasChanged();
+            }
+            else
+            {
+                Snackbar.Add("Connection error. Internship Vacancy is not deleted.", Severity.Error);
+            }
+        }
+        else
+        {
+            Snackbar.Add("Internship Vacancy is Not Deleted", Severity.Info);
+        }
+    }
+}

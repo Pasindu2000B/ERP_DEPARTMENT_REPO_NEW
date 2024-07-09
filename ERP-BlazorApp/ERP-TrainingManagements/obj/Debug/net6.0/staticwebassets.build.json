@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lMt2wVG9BVa8jZJn92f7GZFTKhUandqrvdwmgEsCVT0=",
+  "Hash": "xA5WCE5oNn4BB/al+nONT090OI9CH5hp9ydTX1g/SKU=",
   "Source": "ERP-TrainingManagements",
   "BasePath": "_content/ERP-TrainingManagements",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ERP-TrainingManagements\\wwwroot",
       "Source": "ERP-TrainingManagements",
-      "ContentRoot": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\wwwroot\\",
       "BasePath": "_content/ERP-TrainingManagements",
       "Pattern": "**"
     }
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "C:\\Users\\Asus\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ERP-TrainingManagements.styles.css",
+      "Identity": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ERP-TrainingManagements.styles.css",
       "SourceId": "ERP-TrainingManagements",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ERP-TrainingManagements",
       "RelativePath": "ERP-TrainingManagements.styles.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ERP-TrainingManagements.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ERP-TrainingManagements.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ERP-TrainingManagements.bundle.scp.css",
+      "Identity": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ERP-TrainingManagements.bundle.scp.css",
       "SourceId": "ERP-TrainingManagements",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ERP-TrainingManagements",
       "RelativePath": "ERP-TrainingManagements.bundle.scp.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ERP-TrainingManagements.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ERP-TrainingManagements.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\wwwroot\\background.png",
+      "Identity": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\wwwroot\\background.png",
       "SourceId": "ERP-TrainingManagements",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\wwwroot\\",
       "BasePath": "_content/ERP-TrainingManagements",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\wwwroot\\exampleJsInterop.js",
+      "Identity": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\wwwroot\\exampleJsInterop.js",
       "SourceId": "ERP-TrainingManagements",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\wwwroot\\",
       "BasePath": "_content/ERP-TrainingManagements",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",

@@ -1,0 +1,5 @@
+﻿@page "/dashboard"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Student")]
+<h3>Admin Page</h3>
+<p>Only users with the Admin role can see this page.</p>

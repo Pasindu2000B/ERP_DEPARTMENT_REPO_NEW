@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xnqJQTq/Xpk=",
+  "dgSpecHash": "tH6LMoESTNU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BaseApp\\Tests\\LabEquipmentManagementTests\\ERP.LabEquipmentManagement.Api.Tests\\ERP.LabEquipmentManagement.Api.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BaseApp\\Tests\\LabEquipmentManagementTests\\ERP.LabEquipmentManagement.Api.Tests\\ERP.LabEquipmentManagement.Api.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\autofixture\\4.18.1\\autofixture.4.18.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",

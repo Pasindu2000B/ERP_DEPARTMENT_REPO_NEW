@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nYZtJlq8R8c=",
+  "dgSpecHash": "y+em8aLI30E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BaseApp\\src\\TranscriptGeneration\\ERP.TranscriptGeneration.Tests\\ERP.TranscriptGeneration.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BaseApp\\src\\TranscriptGeneration\\ERP.TranscriptGeneration.Tests\\ERP.TranscriptGeneration.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\bogus\\35.4.1\\bogus.35.4.1.nupkg.sha512",
