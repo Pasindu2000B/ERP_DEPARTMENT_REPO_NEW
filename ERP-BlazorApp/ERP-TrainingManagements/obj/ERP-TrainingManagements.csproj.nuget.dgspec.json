@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\ERP-TrainingManagements.csproj": {}
+    "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\ERP-TrainingManagements.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\ERP-TrainingManagements.csproj": {
+    "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\ERP-TrainingManagements.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\ERP-TrainingManagements.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\ERP-TrainingManagements.csproj",
         "projectName": "ERP-TrainingManagements",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\ERP-TrainingManagements.csproj",
+        "projectPath": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\ERP-TrainingManagements.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-TrainingManagements\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8pdxwoR2TRw=",
+  "dgSpecHash": "fid7YwoYZIE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.4\\microsoft.aspnetcore.authorization.8.0.4.nupkg.sha512",

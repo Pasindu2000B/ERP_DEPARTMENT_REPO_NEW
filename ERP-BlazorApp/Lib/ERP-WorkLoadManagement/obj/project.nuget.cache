@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D1ApnaqXFHI=",
+  "dgSpecHash": "gzIaFtskMoA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\Lib\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\Lib\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.3\\microsoft.aspnetcore.authorization.8.0.3.nupkg.sha512",

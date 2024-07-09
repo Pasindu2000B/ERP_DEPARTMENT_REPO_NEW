@@ -18,14 +18,13 @@ using System.Reflection;
     "t\\")]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Program Files\\dotnet\\packs\\Aspire.Hosting.Orchestration.win-x64\\8.0.0\\tools\\ex" +
     "t\\bin\\")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-Blazo" +
-    "rApp.AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-BlazorApp.AppHost")]
 [assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Program Files\\dotnet\\packs\\Aspire.Dashboard.Sdk.win-x64\\8.0.0\\tools\\Aspire.Das" +
     "hboard.exe")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP-BlazorApp.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7adb5b80bde5a08823a786b11924cea67a46578")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44da19366077cf26857cbf80281756f413756cca")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP-BlazorApp.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP-BlazorApp.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

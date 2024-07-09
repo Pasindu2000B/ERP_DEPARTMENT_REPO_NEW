@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WpF4+Zhlpsk=",
+  "dgSpecHash": "qoZsAjevsZI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-BlazorApp.ServiceDefaults\\ERP-BlazorApp.ServiceDefaults.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-BlazorApp.ServiceDefaults\\ERP-BlazorApp.ServiceDefaults.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\google.protobuf\\3.22.5\\google.protobuf.3.22.5.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\grpc.core.api\\2.52.0\\grpc.core.api.2.52.0.nupkg.sha512",

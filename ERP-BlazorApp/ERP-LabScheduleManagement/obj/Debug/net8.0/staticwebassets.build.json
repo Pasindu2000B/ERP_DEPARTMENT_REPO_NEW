@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "isPg5kqkY7owSzQ4JwJCszwKYyZVXni7xMqhTCCLcXE=",
+  "Hash": "oeb84Pytbb3gClmRzarzCdqBLQ8FSvrD2Fd3g/bmpjE=",
   "Source": "ERP-LabScheduleManagement",
   "BasePath": "_content/ERP-LabScheduleManagement",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ERP-LabScheduleManagement\\wwwroot",
       "Source": "ERP-LabScheduleManagement",
-      "ContentRoot": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-LabScheduleManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-LabScheduleManagement\\wwwroot\\",
       "BasePath": "_content/ERP-LabScheduleManagement",
       "Pattern": "**"
     }
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "C:\\Users\\Asus\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-LabScheduleManagement\\wwwroot\\background.png",
+      "Identity": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-LabScheduleManagement\\wwwroot\\background.png",
       "SourceId": "ERP-LabScheduleManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-LabScheduleManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-LabScheduleManagement\\wwwroot\\",
       "BasePath": "_content/ERP-LabScheduleManagement",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-LabScheduleManagement\\wwwroot\\exampleJsInterop.js",
+      "Identity": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-LabScheduleManagement\\wwwroot\\exampleJsInterop.js",
       "SourceId": "ERP-LabScheduleManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Asus\\Desktop\\Cricket\\Final\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-LabScheduleManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-LabScheduleManagement\\wwwroot\\",
       "BasePath": "_content/ERP-LabScheduleManagement",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",
