@@ -1,0 +1,58 @@
+﻿@using MudBlazor
+@rendermode InteractiveServer
+@inject ISnackbar Snackbar
+
+<MudPopoverProvider></MudPopoverProvider>
+<MudDialogProvider />
+<MudSnackbarProvider />
+<MudTabs Elevation="2" Rounded="true" ApplyEffectsToContainer="true" PanelClass="pa-6" @ref="tabs">
+
+    @* <MudTabPanel Text="Work Assign Overview" @ref="panel01" Style="background-color: #e0f7fa;">
+    <AssignWorkOverview/>
+    </MudTabPanel>
+
+    <MudTabPanel Text="Assigned Work List" @ref="panel02" Style="background-color: #ffe0b2;">
+    <AssignedWorkList/>
+    </MudTabPanel> *@
+
+    <MudTabPanel Text="Assign Module" @ref="panel03" Style="background-color: #d1c4e9;">
+        <AssignModule />
+    </MudTabPanel>
+
+    <MudTabPanel Text="Assign Position" @ref="panel04" Style="background-color: #c8e6c9;">
+        <AssignPosition />     <!--onAdded="Activate_01"-->
+    </MudTabPanel>
+
+    <MudTabPanel Text="Assign Other Work" @ref="panel05" Style="background-color: #ffccbc;">
+        <AssignOther />
+    </MudTabPanel>
+
+    @* <MudTabPanel Text="Filter Assign Work" @ref="panel06" Style="background-color: #f8bbd0;">
+    <AssignOther />
+    </MudTabPanel> *@
+
+</MudTabs>
+
+@code {
+    MudTabs tabs;
+    MudTabPanel panel01;
+    MudTabPanel panel02;
+    MudTabPanel panel03;
+    MudTabPanel panel04;
+    MudTabPanel panel05;
+    MudTabPanel panel06;
+
+    bool _editItem = false;
+
+    MudTabPanel tab1;
+    void EditToggle()
+    {
+
+    }
+
+    void Activate_01()
+    {
+        tabs.ActivatePanel(panel01);
+        Snackbar.Add("Staff Member Added Successfully", Severity.Success);
+    }
+}

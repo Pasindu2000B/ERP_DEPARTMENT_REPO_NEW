@@ -1,0 +1,56 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+
+
+
+
+@inject NavigationManager NavigationManager
+
+@rendermode InteractiveServer
+
+<MudPaper Width="250px" Class="d-inline-flex py-3" Elevation="0">
+    <MudNavMenu Class="mud-width-full">
+
+        <MudDivider Class="my-2" />
+
+        <MudNavGroup Title="Department" Icon="@Icons.Material.Filled.PeopleOutline" >
+            <MudNavLink Href="/department/alumni" Icon="@Icons.Material.Filled.Man" IconColor="Color.Inherit">Alumni</MudNavLink>
+            <MudNavGroup Title="Laboratory" Icon="@Icons.Material.Filled.Science" >
+                <MudNavLink Href="/department/labEquipments" Icon="@Icons.Material.Filled.Inventory" IconColor="Color.Inherit">Lab Equipments</MudNavLink>
+                <MudNavLink Href="/department/labSchedules" Icon="@Icons.Material.Filled.Schedule" IconColor="Color.Inherit">Laboratory Schedules</MudNavLink>
+            </MudNavGroup>
+            <MudNavGroup Title="Work Load" Icon="@Icons.Material.Filled.Work" >
+                <MudNavLink Href="/department/workloads" Icon="@Icons.Material.Filled.WorkOutline" IconColor="Color.Inherit">Works</MudNavLink>
+                <MudNavLink Href="/department/staff" Icon="@Icons.Material.Filled.Groups2" IconColor="Color.Inherit">Staff</MudNavLink>
+                <MudNavLink Href="/department/assignwork" Icon="@Icons.Material.Filled.AssignmentInd" IconColor="Color.Inherit">Assign Work</MudNavLink>
+            </MudNavGroup>
+        </MudNavGroup>
+
+           
+
+    </MudNavMenu>
+</MudPaper>
+
+@code {
+    private string? currentUrl;
+
+    protected override void OnInitialized()
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(NavigationManager.Uri);
+        NavigationManager.LocationChanged += OnLocationChanged;
+    }
+
+    private void OnLocationChanged(object? sender, LocationChangedEventArgs e)
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(e.Location);
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        NavigationManager.LocationChanged -= OnLocationChanged;
+    }
+    
+
+ 
+   
+}
