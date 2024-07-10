@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using ERP.TrainingManagement.DataServices.Data;
 using ERP.TrainingManagement.DataServices.Repository.Interfaces;
 
+
 namespace ERP.TrainingManagement.DataServices.Repository
 {
     public class InternshipVacancyRepository : GenericRepository<InternshipVacancy>,IInternshipVacancyRepository
@@ -60,7 +61,10 @@ namespace ERP.TrainingManagement.DataServices.Repository
                 {
                     return false;
                 }
-           
+
+                result.status = 0;
+                result.ModifiedDate = DateTime.UtcNow;
+
                 return true;
 
             }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP.TranscriptGenetation.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1ad9c7f8cc59287327e6bf0e62ee87ecb09a3fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fee1a4a1b2fbcdf924e40825ddaedb6f31e22342")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP.TranscriptGenetation.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP.TranscriptGenetation.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

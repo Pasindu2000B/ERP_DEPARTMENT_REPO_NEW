@@ -9,6 +9,7 @@ using System.Text;
 
 
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -16,10 +17,13 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 
+
 builder.Services.AddMudServices();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 builder.Services.AddScoped<CustomAuthenticationStateProvider, CustomAuthenticationStateProvider>();
 builder.Services.AddHttpClient();
+
+
 var key = Encoding.ASCII.GetBytes("a-very-long-randomly-generated-secure-key-1234567890123456");
 builder.Services.AddAuthentication(x =>
 {
@@ -67,6 +71,7 @@ app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 app.UseAntiforgery();
+
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();

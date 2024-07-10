@@ -180,13 +180,13 @@ C:\Users\Asus\Desktop\Cricket\Final\ERP_New_MicroServices\ERP-BlazorApp\ERP.Blaz
 C:\Users\Asus\Desktop\Cricket\Final\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ERP.BlazorUI.pdb
 C:\Users\Asus\Desktop\Cricket\Final\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ERP.BlazorUI.genruntimeconfig.cache
 C:\Users\Asus\Desktop\Cricket\Final\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ref\ERP.BlazorUI.dll
-C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\appsettings.json
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP-StudentRegistration.staticwebassets.runtime.json
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP-GraduateManagement.staticwebassets.runtime.json
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP-LabEquipmentManagement.staticwebassets.runtime.json
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP-LabScheduleManagement.staticwebassets.runtime.json
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP-WorkLoadManagement.staticwebassets.runtime.json
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\appsettings.json
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP.BlazorUI.staticwebassets.runtime.json
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP.BlazorUI.exe
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP.BlazorUI.deps.json
@@ -209,6 +209,7 @@ C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debu
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\itext.styledxmlparser.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\itext.svg.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\itext.commons.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
@@ -221,6 +222,12 @@ C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debu
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.JSInterop.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
@@ -231,6 +238,7 @@ C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debu
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\SixLabors.Fonts.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\SixLabors.ImageSharp.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\de\PdfSharpCore.resources.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
@@ -269,11 +277,3 @@ C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debu
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ERP.BlazorUI.pdb
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ERP.BlazorUI.genruntimeconfig.cache
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ref\ERP.BlazorUI.dll
-C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WAEf+ftmsYA3sH38050bc+k197opa/h2Og8I5Xb/49I=",
+  "Hash": "867x+rrxdI1ojzeZjkmu1LplB1RGpSOsvd9Olc3lxLc=",
   "Source": "ERP.BlazorUI",
   "BasePath": "_content/ERP.BlazorUI",
   "Mode": "Default",
@@ -108,10 +108,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Asus\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.css",
+      "Identity": "C:\\Users\\Asus\\.nuget\\packages\\mudblazor\\7.0.0\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Asus\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Asus\\.nuget\\packages\\mudblazor\\7.0.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css",
       "AssetKind": "All",
@@ -124,13 +124,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Asus\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.css"
+      "OriginalItemSpec": "C:\\Users\\Asus\\.nuget\\packages\\mudblazor\\7.0.0\\staticwebassets\\MudBlazor.min.css"
     },
     {
-      "Identity": "C:\\Users\\Asus\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.js",
+      "Identity": "C:\\Users\\Asus\\.nuget\\packages\\mudblazor\\7.0.0\\staticwebassets\\MudBlazor.min.js",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Asus\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Asus\\.nuget\\packages\\mudblazor\\7.0.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js",
       "AssetKind": "All",
@@ -143,7 +143,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Asus\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.js"
+      "OriginalItemSpec": "C:\\Users\\Asus\\.nuget\\packages\\mudblazor\\7.0.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
       "Identity": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP.BlazorUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ERP.BlazorUI.styles.css",
