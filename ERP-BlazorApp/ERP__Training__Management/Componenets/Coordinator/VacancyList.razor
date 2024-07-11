@@ -28,6 +28,8 @@
                             StartIcon="@Icons.Material.Filled.Edit" Size="Size.Small" />
                     <MudFab Color="Color.Warning" OnClick="@(async () => await DeleteVacancy(context.Id))"
                             StartIcon="@Icons.Material.Filled.Delete" Size="Size.Small" />
+                    <MudFab Color="Color.Tertiary" OnClick="() => NavigateToUploads(context.Id)"
+                            StartIcon="@Icons.Material.Filled.UploadFile" Size="Size.Small" />
                 </div>
             </MudTd>
         </RowTemplate>
@@ -136,7 +138,10 @@ else
             Snackbar.Add("Internship vacancy not deleted.", Severity.Info);
         }
     }
-
+    private void NavigateToUploads(Guid VacancyId)
+    {
+        NavigationManager.NavigateTo($"/view-uploads/{VacancyId}");
+    }
     public class InternshipVacancy
     {
         public Guid Id { get; set; }

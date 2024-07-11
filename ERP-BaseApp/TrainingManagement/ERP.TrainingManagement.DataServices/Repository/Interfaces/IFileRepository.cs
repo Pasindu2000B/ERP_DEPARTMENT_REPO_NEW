@@ -1,4 +1,5 @@
 ﻿using ERP.TrainingManagement.Core.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +16,9 @@ namespace ERP.TrainingManagement.DataServices.Repository.Interfaces
         Task<IEnumerable<RegistartionLetterUpload>> GetRegistrationLettersByStudentIdAsync(Guid studentId);
 
         Task<List<CVUpload>> GetCVUploadsByVacancyIdAsync(Guid vacancyId);
+
+        Task<CVUpload> GetCvByUploadIdByCVIDAsync(Guid cvUploadId);
+        
+
     }
 }

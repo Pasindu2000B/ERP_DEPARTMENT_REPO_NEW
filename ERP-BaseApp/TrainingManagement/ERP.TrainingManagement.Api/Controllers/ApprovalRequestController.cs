@@ -25,7 +25,7 @@ namespace ERP.TrainingManagement.Api.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Student")]
+        //[Authorize(Roles = "Student")]
         public async Task<IActionResult> CreateApprovalRequest([FromBody] CreateApprovalRequest request)
         {
             if (!ModelState.IsValid)
@@ -45,7 +45,7 @@ namespace ERP.TrainingManagement.Api.Controllers
         }
 
         [HttpGet("{id:guid}")]
-        [Authorize(Roles = "Student,Coordinator")]
+        //[Authorize(Roles = "Student,Coordinator")]
         public async Task<IActionResult> GetApprovalRequestById(Guid id)
         {
             var approvalRequest = await _unitOfWork.AddApprovalRequestRepository.GetById(id);
@@ -59,7 +59,7 @@ namespace ERP.TrainingManagement.Api.Controllers
         }
 
         [HttpPut("{id:guid}")]
-        [Authorize(Roles = "Student")]
+        //[Authorize(Roles = "Student")]
         public async Task<IActionResult> UpdateApprovalRequest(Guid id, [FromBody] UpdateApprovalRequest request)
         {
             if (!ModelState.IsValid)
@@ -83,7 +83,7 @@ namespace ERP.TrainingManagement.Api.Controllers
         }
 
         [HttpDelete("{id:guid}")]
-        [Authorize(Roles = "Student")]
+        //[Authorize(Roles = "Student")]
         public async Task<IActionResult> DeleteApprovalRequest(Guid id)
         {
             var approvalRequest = await _unitOfWork.AddApprovalRequestRepository.GetById(id);
@@ -99,7 +99,7 @@ namespace ERP.TrainingManagement.Api.Controllers
         }
 
         [HttpGet("All")]
-        [Authorize(Roles = "Coordinator")]
+        //[Authorize(Roles = "Coordinator")]
         public async Task<IActionResult> GetAllApprovalRequests()
         {
             var approvalRequests = await _unitOfWork.AddApprovalRequestRepository.All();

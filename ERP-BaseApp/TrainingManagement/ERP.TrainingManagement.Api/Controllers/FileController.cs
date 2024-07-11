@@ -30,12 +30,12 @@ namespace ERP.TrainingManagement.Api.Controllers
             _mapper = mapper;
         }
 
-        [HttpPost("upload/cv/{vacancyId:guid}")]
+        [HttpPost("upload/cv/{vacancyId:guid}/{studentId:guid}")]
         //[Authorize(Roles = "Student")]
-        public async Task<IActionResult> UploadCv([FromForm] UploadFileRequest request, Guid vacancyId)
+        public async Task<IActionResult> UploadCv([FromForm] UploadFileRequest request, Guid vacancyId,Guid studentId)
         {
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var studentId = Guid.Parse(userId);
+            //var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            //var studentId = Guid.Parse(userId);
 
 
             using (var memoryStream = new MemoryStream())
@@ -44,7 +44,7 @@ namespace ERP.TrainingManagement.Api.Controllers
                 var cvUpload = new CVUpload
                 {
                     Id = Guid.NewGuid(),
-                    StudentId = studentId,
+                    StudentId =studentId ,
                     FileName = request.File.FileName,
                     FileData = memoryStream.ToArray(),
                     UploadDate = DateTime.UtcNow,
@@ -61,7 +61,7 @@ namespace ERP.TrainingManagement.Api.Controllers
         }
 
         [HttpGet("download/cvs/{studentId:guid}")]
-        [Authorize(Roles = "Student,Coordinator")]
+        //[Authorize(Roles = "Student,Coordinator")]
         public async Task<IActionResult> DownloadCvs(Guid studentId)
         {
             var files = await _unitOfWork.FileRepository.GetCvsByStudentIdAsync(studentId);
@@ -90,7 +90,7 @@ namespace ERP.TrainingManagement.Api.Controllers
         }
 
         [HttpGet("download/RegistartionLetters/{studentId:guid}")]
-        [Authorize(Roles = "Student,Coordinator")]
+        //[Authorize(Roles = "Student,Coordinator")]
         public async Task<IActionResult> DownloadsRegsitrationLetters(Guid studentId)
         {
             var files = await _unitOfWork.FileRepository.GetRegistrationLettersByStudentIdAsync(studentId);
@@ -119,7 +119,7 @@ namespace ERP.TrainingManagement.Api.Controllers
         }
 
         [HttpPost("upload/registration-letter")]
-        [Authorize(Roles = "Student")]
+        //[Authorize(Roles = "Student")]
         public async Task<IActionResult> UploadRegistrationLetter([FromForm] UploadFileRequest request)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -154,6 +154,20 @@ namespace ERP.TrainingManagement.Api.Controllers
             }
 
             return Ok(cvUploads);
+        }
+
+        [HttpGet("download/cv/{cvUploadId:guid}")]
+        // [Authorize(Roles = "Student,Coordinator")]
+        public async Task<IActionResult> DownloadCv(Guid cvUploadId)
+        {
+            var file = await _unitOfWork.FileRepository.GetCvByUploadIdByCVIDAsync(cvUploadId);
+            if (file == null)
+            {
+                return NotFound();
+            }
+
+            var fileName = file.FileName ?? $"CV_{cvUploadId}.pdf";
+            return File(file.FileData, "application/octet-stream", fileName);
         }
 
 
