@@ -148,7 +148,6 @@ C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP-BlazorApp.AppHost
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP-BlazorApp.AppHost\obj\Debug\net8.0\ERP-BlazorApp.AppHost.AssemblyInfoInputs.cache
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP-BlazorApp.AppHost\obj\Debug\net8.0\ERP-BlazorApp.AppHost.AssemblyInfo.cs
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP-BlazorApp.AppHost\obj\Debug\net8.0\ERP-BlazorApp.AppHost.csproj.CoreCompileInputs.cache
-C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP-BlazorApp.AppHost\obj\Debug\net8.0\Aspire\references\.ProjectMetadata.g.cs
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP-BlazorApp.AppHost\obj\Debug\net8.0\Aspire\references\_AppHost.ProjectMetadata.g.cs
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP-BlazorApp.AppHost\obj\Debug\net8.0\ERP-BlazorApp.AppHost.sourcelink.json
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP-BlazorApp.AppHost\obj\Debug\net8.0\ERP-Blaz.13E39D5E.Up2Date
@@ -157,3 +156,4 @@ C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP-BlazorApp.AppHost
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP-BlazorApp.AppHost\obj\Debug\net8.0\ERP-BlazorApp.AppHost.pdb
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP-BlazorApp.AppHost\obj\Debug\net8.0\ERP-BlazorApp.AppHost.genruntimeconfig.cache
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP-BlazorApp.AppHost\obj\Debug\net8.0\ref\ERP-BlazorApp.AppHost.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP-BlazorApp.AppHost\obj\Debug\net8.0\Aspire\references\ERP__Training__Management.ProjectMetadata.g.cs

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP.TrainingManagement.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fee1a4a1b2fbcdf924e40825ddaedb6f31e22342")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e9e3051bf2be16ed090320f6e57cf443123b88a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP.TrainingManagement.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP.TrainingManagement.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

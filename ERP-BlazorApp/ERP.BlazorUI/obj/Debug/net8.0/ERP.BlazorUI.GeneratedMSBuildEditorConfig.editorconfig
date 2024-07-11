@@ -53,24 +53,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXBhcnRtZW50XExhYk1hbmFnZW1lbnRcTGFiU2NoZWR1bGVIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asus/Pictures/ERP_New_MicroServices/ERP-BlazorApp/ERP.BlazorUI/Components/Pages/Department/Training/Coordinator/EditVacancyDialog.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXBhcnRtZW50XFRyYWluaW5nXENvb3JkaW5hdG9yXEVkaXRWYWNhbmN5RGlhbG9nLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Asus/Pictures/ERP_New_MicroServices/ERP-BlazorApp/ERP.BlazorUI/Components/Pages/Department/Training/Coordinator/VacancyList.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXBhcnRtZW50XFRyYWluaW5nXENvb3JkaW5hdG9yXFZhY2FuY3lMaXN0LnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Asus/Pictures/ERP_New_MicroServices/ERP-BlazorApp/ERP.BlazorUI/Components/Pages/Department/Training/Coordinator/ViewVacancyDialog.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXBhcnRtZW50XFRyYWluaW5nXENvb3JkaW5hdG9yXFZpZXdWYWNhbmN5RGlhbG9nLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Asus/Pictures/ERP_New_MicroServices/ERP-BlazorApp/ERP.BlazorUI/Components/Pages/Department/Training/DashBoard.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXBhcnRtZW50XFRyYWluaW5nXERhc2hCb2FyZC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Asus/Pictures/ERP_New_MicroServices/ERP-BlazorApp/ERP.BlazorUI/Components/Pages/Department/Training/LoginTraining.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXBhcnRtZW50XFRyYWluaW5nXExvZ2luVHJhaW5pbmcucmF6b3I=
+[C:/Users/Asus/Pictures/ERP_New_MicroServices/ERP-BlazorApp/ERP.BlazorUI/Components/Pages/Department/Training/Coordinator/Coordinatorazor.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXBhcnRtZW50XFRyYWluaW5nXENvb3JkaW5hdG9yXENvb3JkaW5hdG9yYXpvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Asus/Pictures/ERP_New_MicroServices/ERP-BlazorApp/ERP.BlazorUI/Components/Pages/Department/WorkLoad/AssignWorkHome.razor]

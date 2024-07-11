@@ -1,4 +1,5 @@
-﻿@using ERP_LabEquipmentManagement.DTOs.Request
+﻿@page "/add-lab-equipment"
+@using ERP_LabEquipmentManagement.DTOs.Request
 @using LabEquipmentComponents
 @using MudBlazor
 @using FluentValidation
@@ -18,7 +19,7 @@
             Add Lab Equipment Details
         </MudText>
     </MudCardHeader>
-    <MudForm Model="@model" @ref="@form" Validation="@(labEquipmentValidator.ValidateValue)" ValidationDelay="0">
+    <MudForm Model="@model" @ref="form" Validation="@(labEquipmentValidator.ValidateValue)" ValidationDelay="0">
         <MudCardContent>
             <MudGrid Spacing="3">
                 <MudItem xs="12">
@@ -171,7 +172,7 @@
                 if (response.IsSuccessStatusCode)
                 {
                     await onAdded.InvokeAsync();
-                    form.Reset();
+                    ResetForm();
                     Snackbar.Add("Lab equipment added successfully.", MudBlazor.Severity.Success);
                 }
                 else
@@ -189,6 +190,12 @@
             Snackbar.Add($"Error: {ex.Message}", MudBlazor.Severity.Error);
         }
         _processing = false;
+    }
+
+    private void ResetForm()
+    {
+        model = new CreateLabEquipmentRequest();
+        form.ResetValidation();
     }
 
     private void HandleFileSelected(InputFileChangeEventArgs e)

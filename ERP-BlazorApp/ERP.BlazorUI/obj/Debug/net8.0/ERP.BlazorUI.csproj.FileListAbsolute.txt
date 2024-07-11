@@ -277,3 +277,6 @@ C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debu
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ERP.BlazorUI.pdb
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ERP.BlazorUI.genruntimeconfig.cache
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ref\ERP.BlazorUI.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP__Training__Management.staticwebassets.runtime.json
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP__Training__Management.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP__Training__Management.pdb

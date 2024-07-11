@@ -134,7 +134,7 @@ else
 
     async Task DeleteLabEquipment(Guid Id)
     {
-        bool? result = await mbox.Show();
+        bool? result = await mbox.ShowAsync();
         if (result == true)
         {
             var response = await Http.DeleteAsync($"https://localhost:7011/api/LabEquipment/{Id}");

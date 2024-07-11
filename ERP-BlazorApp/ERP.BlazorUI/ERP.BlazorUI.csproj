@@ -16,6 +16,9 @@
 	<ItemGroup>
 		
 	
+		<ProjectReference Include="..\ERP__Training__Management\ERP__Training__Management.csproj" />
+		
+	
 		<ProjectReference Include="..\Lib\ERP-StudentRegistration\ERP-StudentRegistration.csproj" />
 	</ItemGroup>
 

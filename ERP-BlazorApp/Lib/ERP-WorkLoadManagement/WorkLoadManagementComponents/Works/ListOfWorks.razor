@@ -54,10 +54,10 @@ else
 </MudMessageBox>
 
 <div class="d-flex flex-wrap mt-4">
-    <MudSwitch @bind-Checked="@hover" Color="Color.Primary">Hover</MudSwitch>
-    <MudSwitch @bind-Checked="@dense" Color="Color.Secondary">Dense</MudSwitch>
-    <MudSwitch @bind-Checked="@striped" Color="Color.Tertiary">Striped</MudSwitch>
-    <MudSwitch @bind-Checked="@bordered" Color="Color.Warning">Bordered</MudSwitch>
+    <MudSwitch T="bool" @bind-Checked="@hover" Color="Color.Primary">Hover</MudSwitch>
+    <MudSwitch T="bool" @bind-Checked="@dense" Color="Color.Secondary">Dense</MudSwitch>
+    <MudSwitch T="bool" @bind-Checked="@striped" Color="Color.Tertiary">Striped</MudSwitch>
+    <MudSwitch T="bool" @bind-Checked="@bordered" Color="Color.Warning">Bordered</MudSwitch>
     <MudSpacer />
     <div style="min-width:200px;">
         <MudText Inline="true" Class="align-self-center">Selected1: @selectedItem1?.WorkName</MudText>
@@ -134,7 +134,7 @@ else
 
     async Task DeleteWork(Guid workId)
     {
-        bool? result = await mbox.Show();
+        bool? result = await mbox.ShowAsync();
         if (result == true)
         {
             var response = await Http.DeleteAsync($"https://localhost:7012/api/Work/{workId}");

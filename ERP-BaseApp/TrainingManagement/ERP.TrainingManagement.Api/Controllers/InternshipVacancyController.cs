@@ -14,6 +14,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using Azure.Core;
 
 namespace ERP.TrainingManagement.Api.Controllers
 {
@@ -63,18 +64,22 @@ namespace ERP.TrainingManagement.Api.Controllers
                 return BadRequest(ModelState);
             }
 
-            try
+            var existingVacancyRequest = await _unitOfWork.AddJobRepository.GetById(VacancyId);
+            if (existingVacancyRequest == null)
             {
-                var existingGraduate = _mapper.Map<InternshipVacancy>(Vacancy);
-                await _unitOfWork.AddJobRepository.Update(existingGraduate);
-                await _unitOfWork.CompleteAsync();
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, "An error occurred while updating the Vacancy.");
+                return NotFound();
             }
 
+            _mapper.Map(Vacancy,existingVacancyRequest);
+            existingVacancyRequest.ModifiedDate = DateTime.UtcNow;
+
+            await _unitOfWork.AddJobRepository.Update(existingVacancyRequest);
+            await _unitOfWork.CompleteAsync();
+
             return NoContent();
+
+
+            
         }
 
         [HttpDelete]

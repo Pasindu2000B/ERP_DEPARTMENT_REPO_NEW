@@ -1,11 +1,22 @@
 {
   "Version": 1,
-  "Hash": "867x+rrxdI1ojzeZjkmu1LplB1RGpSOsvd9Olc3lxLc=",
+  "Hash": "asvx2v5h5zMLyE5zDoVR0+G7p/ti35tZKUqaLVDSxWo=",
   "Source": "ERP.BlazorUI",
   "BasePath": "_content/ERP.BlazorUI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\ERP__Training__Management.csproj",
+      "Version": 2,
+      "Source": "ERP__Training__Management",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    },
     {
       "Identity": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj",
       "Version": 2,
@@ -68,6 +79,13 @@
       "Source": "ERP.BlazorUI",
       "ContentRoot": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP.BlazorUI\\wwwroot\\",
       "BasePath": "_content/ERP.BlazorUI",
+      "Pattern": "**"
+    },
+    {
+      "Name": "ERP__Training__Management\\wwwroot",
+      "Source": "ERP__Training__Management",
+      "ContentRoot": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\wwwroot\\",
+      "BasePath": "_content/ERP__Training__Management",
       "Pattern": "**"
     },
     {
@@ -239,6 +257,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\GraduatesReport.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\wwwroot\\background.png",
+      "SourceId": "ERP__Training__Management",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\wwwroot\\",
+      "BasePath": "_content/ERP__Training__Management",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "ERP__Training__Management",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\wwwroot\\",
+      "BasePath": "_content/ERP__Training__Management",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
     },
     {
       "Identity": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-GraduateManagement\\wwwroot\\background.png",

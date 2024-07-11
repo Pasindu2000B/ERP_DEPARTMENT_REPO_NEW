@@ -13,4 +13,8 @@
     <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ERP__Training__Management\ERP__Training__Management.csproj" />
+  </ItemGroup>
+
 </Project>

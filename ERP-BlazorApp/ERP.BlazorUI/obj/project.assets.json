@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "EPPlus/7.2.0": {
+      "EPPlus/7.2.1": {
         "type": "package",
         "dependencies": {
           "EPPlus.System.Drawing": "6.1.1",
@@ -58,7 +58,7 @@
           }
         }
       },
-      "itext/8.0.3": {
+      "itext/8.0.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.DotNet.PlatformAbstractions": "1.1.0",
@@ -75,7 +75,7 @@
           "System.Threading.Thread": "4.3.0",
           "System.Threading.ThreadPool": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0",
-          "itext.commons": "8.0.3"
+          "itext.commons": "8.0.4"
         },
         "compile": {
           "lib/netstandard2.0/itext.barcodes.dll": {
@@ -148,7 +148,7 @@
           }
         }
       },
-      "itext.commons/8.0.3": {
+      "itext.commons/8.0.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Logging": "5.0.0",
@@ -165,10 +165,10 @@
           }
         }
       },
-      "itext7/8.0.3": {
+      "itext7/8.0.4": {
         "type": "package",
         "dependencies": {
-          "itext": "8.0.3"
+          "itext": "8.0.4"
         }
       },
       "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.7": {
@@ -2086,12 +2086,12 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "EPPlus": "7.2.0",
-          "FluentValidation": "11.9.0",
-          "Microsoft.AspNetCore.Components.Web": "8.0.3",
-          "MudBlazor": "6.19.1",
+          "EPPlus": "7.2.1",
+          "FluentValidation": "11.9.2",
+          "Microsoft.AspNetCore.Components.Web": "8.0.7",
+          "MudBlazor": "7.0.0",
           "PdfSharpCore": "1.3.63",
-          "itext7": "8.0.3"
+          "itext7": "8.0.4"
         },
         "compile": {
           "bin/placeholder/ERP-GraduateManagement.dll": {}
@@ -2104,9 +2104,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "FluentValidation": "11.9.0",
-          "Microsoft.AspNetCore.Components.Web": "8.0.3",
-          "MudBlazor": "6.19.1"
+          "FluentValidation": "11.9.2",
+          "Microsoft.AspNetCore.Components.Web": "8.0.7",
+          "MudBlazor": "7.0.0"
         },
         "compile": {
           "bin/placeholder/ERP-LabEquipmentManagement.dll": {}
@@ -2119,9 +2119,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "FluentValidation": "11.9.1",
-          "Microsoft.AspNetCore.Components.Web": "8.0.4",
-          "MudBlazor": "6.19.1"
+          "FluentValidation": "11.9.2",
+          "Microsoft.AspNetCore.Components.Web": "8.0.7",
+          "MudBlazor": "7.0.0"
         },
         "compile": {
           "bin/placeholder/ERP-LabScheduleManagement.dll": {}
@@ -2150,8 +2150,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "FluentValidation": "11.9.2",
-          "Microsoft.AspNetCore.Components.Web": "8.0.3",
-          "MudBlazor": "6.19.1"
+          "Microsoft.AspNetCore.Components.Web": "8.0.7",
+          "MudBlazor": "7.0.0"
         },
         "compile": {
           "bin/placeholder/ERP-WorkLoadManagement.dll": {}
@@ -2159,19 +2159,34 @@
         "runtime": {
           "bin/placeholder/ERP-WorkLoadManagement.dll": {}
         }
+      },
+      "ERP__Training__Management/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FluentValidation": "11.9.2",
+          "Microsoft.AspNetCore.Components.Web": "8.0.7",
+          "MudBlazor": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ERP__Training__Management.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ERP__Training__Management.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "EPPlus/7.2.0": {
-      "sha512": "6dLBqhz8tOYyAO6PKHc/FNFn7rF1HcGNP1xsfdyR45Rrn12Wj7PR55YBqXY1YoWYZJU4Maph+pcoFqqJU/a/8g==",
+    "EPPlus/7.2.1": {
+      "sha512": "2a4tfkqpyrLQHpT7A2ShJBDRcD85exT15YK+9PtvlqIOi7P7fF8myqhlojdinjNGhARSAQog7sLsm0rW1oh21Q==",
       "type": "package",
-      "path": "epplus/7.2.0",
+      "path": "epplus/7.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "EPPlusLogo.png",
-        "epplus.7.2.0.nupkg.sha512",
+        "epplus.7.2.1.nupkg.sha512",
         "epplus.nuspec",
         "lib/net35/EPPlus.dll",
         "lib/net35/EPPlus.xml",
@@ -2257,17 +2272,17 @@
         "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
-    "itext/8.0.3": {
-      "sha512": "Qm6WtQ7sTWW95FIPYCNnQwOCesQQk1HoJ7Gpdn/xWGWf1p392NKwwmtovzUeV9zbACV0yae3LVcT9z9azIU6hQ==",
+    "itext/8.0.4": {
+      "sha512": "k2dSmNbDAUmlXseGDjYL0d4h8gn5uAeFIVoEyS2zP3YT2t+AjZMtKb1rY4DgSS7lGn0TuAn9dez0fSemdlnsXQ==",
       "type": "package",
-      "path": "itext/8.0.3",
+      "path": "itext/8.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "ITSC-avatar.png",
         "LICENSE.md",
         "gnu-agpl-v3.0.md",
-        "itext.8.0.3.nupkg.sha512",
+        "itext.8.0.4.nupkg.sha512",
         "itext.nuspec",
         "lib/net461/itext.barcodes.dll",
         "lib/net461/itext.barcodes.xml",
@@ -2315,15 +2330,15 @@
         "lib/netstandard2.0/itext.svg.xml"
       ]
     },
-    "itext.commons/8.0.3": {
-      "sha512": "Nd6K3z1UA+OBonOUnQ5odUjvleTZfSH4rdMQFhPu0Y29JN/iKsCAznpw6vlFvoLa7cqP+/5bQOUlvVJaf/bK6A==",
+    "itext.commons/8.0.4": {
+      "sha512": "+76EQpGCj1gw17/zD6DaFumWXj9S+ko40wxNny+/3nW7PmrMZd6R8NJHvE1HVHo0xr2Ibx1JL71REYjIYTKFCQ==",
       "type": "package",
-      "path": "itext.commons/8.0.3",
+      "path": "itext.commons/8.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "ITSC-avatar.png",
-        "itext.commons.8.0.3.nupkg.sha512",
+        "itext.commons.8.0.4.nupkg.sha512",
         "itext.commons.nuspec",
         "lib/net461/itext.commons.dll",
         "lib/net461/itext.commons.xml",
@@ -2331,17 +2346,17 @@
         "lib/netstandard2.0/itext.commons.xml"
       ]
     },
-    "itext7/8.0.3": {
-      "sha512": "cdeEkdomN5tgi2cp2++7onbSSBwIh9FOeTLK297jItA6gbZXsG4FaRg8msvHPbHIBTTivl44mHvi3dEBmY3naQ==",
+    "itext7/8.0.4": {
+      "sha512": "J+eaLBqCSXbk4DPGuuKZPcs02cH7De6xGZ312o87d21MNgSmAQQikDVw5OpcdMiA0GW/YT/VXRjU5cLPa6sh9A==",
       "type": "package",
-      "path": "itext7/8.0.3",
+      "path": "itext7/8.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "ITSC-avatar.png",
         "LICENSE.md",
         "gnu-agpl-v3.0.md",
-        "itext7.8.0.3.nupkg.sha512",
+        "itext7.8.0.4.nupkg.sha512",
         "itext7.nuspec"
       ]
     },
@@ -6672,6 +6687,11 @@
       "type": "project",
       "path": "../Lib/ERP-WorkLoadManagement/ERP-WorkLoadManagement.csproj",
       "msbuildProject": "../Lib/ERP-WorkLoadManagement/ERP-WorkLoadManagement.csproj"
+    },
+    "ERP__Training__Management/1.0.0": {
+      "type": "project",
+      "path": "../ERP__Training__Management/ERP__Training__Management.csproj",
+      "msbuildProject": "../ERP__Training__Management/ERP__Training__Management.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6681,6 +6701,7 @@
       "ERP-LabScheduleManagement >= 1.0.0",
       "ERP-StudentRegistration >= 1.0.0",
       "ERP-WorkLoadManagement >= 1.0.0",
+      "ERP__Training__Management >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.7",
       "Microsoft.AspNetCore.Authorization >= 8.0.7",
       "Microsoft.AspNetCore.Components.Web >= 8.0.7",
@@ -6728,6 +6749,9 @@
             },
             "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj": {
               "projectPath": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj"
+            },
+            "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\ERP__Training__Management.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\ERP__Training__Management.csproj"
             },
             "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\Lib\\ERP-StudentRegistration\\ERP-StudentRegistration.csproj": {
               "projectPath": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\Lib\\ERP-StudentRegistration\\ERP-StudentRegistration.csproj"

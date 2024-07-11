@@ -117,7 +117,7 @@
                 if (response.IsSuccessStatusCode)
                 {
                     await onAdded.InvokeAsync(null);
-                    form.Reset();
+                    form.ResetAsync();
                     //Snackbar.Add("Staff member added successfully", MudBlazor.Severity.Success);
                 }
                 else

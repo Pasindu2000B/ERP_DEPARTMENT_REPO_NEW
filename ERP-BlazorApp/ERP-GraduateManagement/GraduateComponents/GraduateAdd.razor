@@ -164,7 +164,7 @@
                 if (response.IsSuccessStatusCode)
                 {
                     await onAdded.InvokeAsync();
-                    form.Reset();
+                    form.ResetAsync();
                     Snackbar.Add("Graduate Added Successfully", MudBlazor.Severity.Success);
                 }
                 else

@@ -97,9 +97,9 @@ else
     }
 
 
-    async Task EditGraduate(Guid graduateId)
+    async Task EditGraduate(Guid VcancyId)
     {
-        var parameters = new DialogParameters<EditGraduateDialog> { {x => x.graduateId, graduateId } };
+        var parameters = new DialogParameters<EditGraduateDialog> { {x => x.graduateId,VcancyId  } };
 
         var options = new DialogOptions
         {
@@ -123,7 +123,7 @@ else
 
     async Task DeleteGraduate(Guid graduateId)
     {
-        bool? result = await mbox.Show();
+        bool? result = await mbox.ShowAsync();
         if (result == true)
         {            
             var response = await Http.DeleteAsync($"https://localhost:7010/api/Graduates/{graduateId}");

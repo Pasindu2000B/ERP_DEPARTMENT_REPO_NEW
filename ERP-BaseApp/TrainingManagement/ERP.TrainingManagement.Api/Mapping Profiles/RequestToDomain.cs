@@ -36,6 +36,8 @@ namespace ERP.TrainingManagement.Api.Mapping_Profiles
 
             CreateMap<UpdateApprovalRequest, ApprovalRequest>()
                 .ForMember(dest => dest.ModifiedDate, opt => opt.MapFrom(src => DateTime.UtcNow));
+            CreateMap<UpdateInternshipVacancyRequest, InternshipVacancy>()
+                .ForMember(dest => dest.ModifiedDate, opt => opt.MapFrom(src => DateTime.UtcNow));
         }
     }
 }

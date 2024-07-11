@@ -40,7 +40,7 @@
                     </MudItem>
 
                     <MudItem xs="12">
-                        <MudSwitch @bind-Checked="model.IsRejected" Label="Is Rejected" />
+                        <MudSwitch  T="bool" @bind-Checked="model.IsRejected" Label="Is Rejected" />
                     </MudItem>
 
                     <MudItem xs="12">
@@ -105,7 +105,7 @@
                 if (response.IsSuccessStatusCode)
                 {
                     await OnAdded.InvokeAsync();
-                    form.Reset();
+                    form.ResetAsync();
                     Snackbar.Add("Work assigned successfully", MudBlazor.Severity.Success);
                 }
                 else

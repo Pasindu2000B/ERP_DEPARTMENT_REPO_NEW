@@ -13,6 +13,7 @@
           "ERP-LabScheduleManagement": "1.0.0",
           "ERP-StudentRegistration": "1.0.0",
           "ERP-WorkLoadManagement": "1.0.0",
+          "ERP__Training__Management": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.7",
           "Microsoft.AspNetCore.Authorization": "8.0.7",
           "Microsoft.AspNetCore.Components.Web": "8.0.7",
@@ -22,7 +23,7 @@
           "ERP.BlazorUI.dll": {}
         }
       },
-      "EPPlus/7.2.0": {
+      "EPPlus/7.2.1": {
         "dependencies": {
           "EPPlus.System.Drawing": "6.1.1",
           "Microsoft.Extensions.Configuration.Json": "8.0.0",
@@ -33,8 +34,8 @@
         },
         "runtime": {
           "lib/net8.0/EPPlus.dll": {
-            "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.0"
+            "assemblyVersion": "7.2.1.0",
+            "fileVersion": "7.2.1.0"
           }
         }
       },
@@ -66,7 +67,7 @@
           }
         }
       },
-      "itext/8.0.3": {
+      "itext/8.0.4": {
         "dependencies": {
           "Microsoft.DotNet.PlatformAbstractions": "1.1.0",
           "Microsoft.Extensions.DependencyModel": "1.1.0",
@@ -82,70 +83,70 @@
           "System.Threading.Thread": "4.3.0",
           "System.Threading.ThreadPool": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0",
-          "itext.commons": "8.0.3"
+          "itext.commons": "8.0.4"
         },
         "runtime": {
           "lib/netstandard2.0/itext.barcodes.dll": {
-            "assemblyVersion": "8.0.3.0",
-            "fileVersion": "8.0.3.0"
+            "assemblyVersion": "8.0.4.0",
+            "fileVersion": "8.0.4.0"
           },
           "lib/netstandard2.0/itext.bouncy-castle-connector.dll": {
-            "assemblyVersion": "8.0.3.0",
-            "fileVersion": "8.0.3.0"
+            "assemblyVersion": "8.0.4.0",
+            "fileVersion": "8.0.4.0"
           },
           "lib/netstandard2.0/itext.forms.dll": {
-            "assemblyVersion": "8.0.3.0",
-            "fileVersion": "8.0.3.0"
+            "assemblyVersion": "8.0.4.0",
+            "fileVersion": "8.0.4.0"
           },
           "lib/netstandard2.0/itext.io.dll": {
-            "assemblyVersion": "8.0.3.0",
-            "fileVersion": "8.0.3.0"
+            "assemblyVersion": "8.0.4.0",
+            "fileVersion": "8.0.4.0"
           },
           "lib/netstandard2.0/itext.kernel.dll": {
-            "assemblyVersion": "8.0.3.0",
-            "fileVersion": "8.0.3.0"
+            "assemblyVersion": "8.0.4.0",
+            "fileVersion": "8.0.4.0"
           },
           "lib/netstandard2.0/itext.layout.dll": {
-            "assemblyVersion": "8.0.3.0",
-            "fileVersion": "8.0.3.0"
+            "assemblyVersion": "8.0.4.0",
+            "fileVersion": "8.0.4.0"
           },
           "lib/netstandard2.0/itext.pdfa.dll": {
-            "assemblyVersion": "8.0.3.0",
-            "fileVersion": "8.0.3.0"
+            "assemblyVersion": "8.0.4.0",
+            "fileVersion": "8.0.4.0"
           },
           "lib/netstandard2.0/itext.pdfua.dll": {
-            "assemblyVersion": "8.0.3.0",
-            "fileVersion": "8.0.3.0"
+            "assemblyVersion": "8.0.4.0",
+            "fileVersion": "8.0.4.0"
           },
           "lib/netstandard2.0/itext.sign.dll": {
-            "assemblyVersion": "8.0.3.0",
-            "fileVersion": "8.0.3.0"
+            "assemblyVersion": "8.0.4.0",
+            "fileVersion": "8.0.4.0"
           },
           "lib/netstandard2.0/itext.styledxmlparser.dll": {
-            "assemblyVersion": "8.0.3.0",
-            "fileVersion": "8.0.3.0"
+            "assemblyVersion": "8.0.4.0",
+            "fileVersion": "8.0.4.0"
           },
           "lib/netstandard2.0/itext.svg.dll": {
-            "assemblyVersion": "8.0.3.0",
-            "fileVersion": "8.0.3.0"
+            "assemblyVersion": "8.0.4.0",
+            "fileVersion": "8.0.4.0"
           }
         }
       },
-      "itext.commons/8.0.3": {
+      "itext.commons/8.0.4": {
         "dependencies": {
           "Microsoft.Extensions.Logging": "5.0.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/netstandard2.0/itext.commons.dll": {
-            "assemblyVersion": "8.0.3.0",
-            "fileVersion": "8.0.3.0"
+            "assemblyVersion": "8.0.4.0",
+            "fileVersion": "8.0.4.0"
           }
         }
       },
-      "itext7/8.0.3": {
+      "itext7/8.0.4": {
         "dependencies": {
-          "itext": "8.0.3"
+          "itext": "8.0.4"
         }
       },
       "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.7": {
@@ -1083,12 +1084,12 @@
       },
       "ERP-GraduateManagement/1.0.0": {
         "dependencies": {
-          "EPPlus": "7.2.0",
+          "EPPlus": "7.2.1",
           "FluentValidation": "11.9.2",
           "Microsoft.AspNetCore.Components.Web": "8.0.7",
           "MudBlazor": "7.0.0",
           "PdfSharpCore": "1.3.63",
-          "itext7": "8.0.3"
+          "itext7": "8.0.4"
         },
         "runtime": {
           "ERP-GraduateManagement.dll": {}
@@ -1133,6 +1134,16 @@
         "runtime": {
           "ERP-WorkLoadManagement.dll": {}
         }
+      },
+      "ERP__Training__Management/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "11.9.2",
+          "Microsoft.AspNetCore.Components.Web": "8.0.7",
+          "MudBlazor": "7.0.0"
+        },
+        "runtime": {
+          "ERP__Training__Management.dll": {}
+        }
       }
     }
   },
@@ -1142,12 +1153,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "EPPlus/7.2.0": {
+    "EPPlus/7.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6dLBqhz8tOYyAO6PKHc/FNFn7rF1HcGNP1xsfdyR45Rrn12Wj7PR55YBqXY1YoWYZJU4Maph+pcoFqqJU/a/8g==",
-      "path": "epplus/7.2.0",
-      "hashPath": "epplus.7.2.0.nupkg.sha512"
+      "sha512": "sha512-2a4tfkqpyrLQHpT7A2ShJBDRcD85exT15YK+9PtvlqIOi7P7fF8myqhlojdinjNGhARSAQog7sLsm0rW1oh21Q==",
+      "path": "epplus/7.2.1",
+      "hashPath": "epplus.7.2.1.nupkg.sha512"
     },
     "EPPlus.Interfaces/6.1.1": {
       "type": "package",
@@ -1170,26 +1181,26 @@
       "path": "fluentvalidation/11.9.2",
       "hashPath": "fluentvalidation.11.9.2.nupkg.sha512"
     },
-    "itext/8.0.3": {
+    "itext/8.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Qm6WtQ7sTWW95FIPYCNnQwOCesQQk1HoJ7Gpdn/xWGWf1p392NKwwmtovzUeV9zbACV0yae3LVcT9z9azIU6hQ==",
-      "path": "itext/8.0.3",
-      "hashPath": "itext.8.0.3.nupkg.sha512"
+      "sha512": "sha512-k2dSmNbDAUmlXseGDjYL0d4h8gn5uAeFIVoEyS2zP3YT2t+AjZMtKb1rY4DgSS7lGn0TuAn9dez0fSemdlnsXQ==",
+      "path": "itext/8.0.4",
+      "hashPath": "itext.8.0.4.nupkg.sha512"
     },
-    "itext.commons/8.0.3": {
+    "itext.commons/8.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Nd6K3z1UA+OBonOUnQ5odUjvleTZfSH4rdMQFhPu0Y29JN/iKsCAznpw6vlFvoLa7cqP+/5bQOUlvVJaf/bK6A==",
-      "path": "itext.commons/8.0.3",
-      "hashPath": "itext.commons.8.0.3.nupkg.sha512"
+      "sha512": "sha512-+76EQpGCj1gw17/zD6DaFumWXj9S+ko40wxNny+/3nW7PmrMZd6R8NJHvE1HVHo0xr2Ibx1JL71REYjIYTKFCQ==",
+      "path": "itext.commons/8.0.4",
+      "hashPath": "itext.commons.8.0.4.nupkg.sha512"
     },
-    "itext7/8.0.3": {
+    "itext7/8.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cdeEkdomN5tgi2cp2++7onbSSBwIh9FOeTLK297jItA6gbZXsG4FaRg8msvHPbHIBTTivl44mHvi3dEBmY3naQ==",
-      "path": "itext7/8.0.3",
-      "hashPath": "itext7.8.0.3.nupkg.sha512"
+      "sha512": "sha512-J+eaLBqCSXbk4DPGuuKZPcs02cH7De6xGZ312o87d21MNgSmAQQikDVw5OpcdMiA0GW/YT/VXRjU5cLPa6sh9A==",
+      "path": "itext7/8.0.4",
+      "hashPath": "itext7.8.0.4.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.7": {
       "type": "package",
@@ -2003,6 +2014,11 @@
       "sha512": ""
     },
     "ERP-WorkLoadManagement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ERP__Training__Management/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
