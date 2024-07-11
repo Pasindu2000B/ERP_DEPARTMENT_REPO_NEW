@@ -12,5 +12,9 @@ namespace ERP.TrainingManagement.Core.DTOs.Requests
         public string Company { get; set; }
         public int Status { get; set; }
         public Guid? ApprovedById { get; set; }
+
+        public string CompanyAdress { get; set; }
+
+        public string ContactedPerson { get; set; }
     }
 }

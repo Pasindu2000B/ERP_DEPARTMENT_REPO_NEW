@@ -37,6 +37,8 @@ namespace ERP.TrainingManagement.DataServices.Repository
                 result.CreatedDate = approvalRequest.CreatedDate;
                 result.ModifiedDate = approvalRequest.ModifiedDate;
                 result.Company = approvalRequest.Company;
+                result.CompanyAdress= approvalRequest.CompanyAdress;
+                result.ContactedPerson = approvalRequest.ContactedPerson;
                 result.StudentId = approvalRequest.StudentId;
                 result.ApprovedById = approvalRequest.ApprovedById;
 

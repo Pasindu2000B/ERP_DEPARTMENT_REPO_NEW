@@ -15,5 +15,9 @@ namespace ERP.TrainingManagement.Core.DTOs.Responses
         public Guid? ApprovedById { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime ModifiedDate { get; set; }
+
+        public string CompanyAdress { get; set; } = string.Empty;
+
+        public string ContactedPerson { get; set; } = string.Empty;
     }
 }

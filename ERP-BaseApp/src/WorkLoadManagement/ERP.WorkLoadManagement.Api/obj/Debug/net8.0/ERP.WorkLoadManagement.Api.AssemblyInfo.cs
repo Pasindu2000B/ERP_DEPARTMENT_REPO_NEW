@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP.WorkLoadManagement.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fee1a4a1b2fbcdf924e40825ddaedb6f31e22342")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1aeec65f3c9cbf09721b57db5ab2ad163e0e280b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP.WorkLoadManagement.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP.WorkLoadManagement.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

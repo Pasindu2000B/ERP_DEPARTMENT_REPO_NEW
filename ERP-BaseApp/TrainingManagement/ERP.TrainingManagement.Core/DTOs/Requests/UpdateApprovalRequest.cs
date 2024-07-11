@@ -20,6 +20,10 @@ namespace ERP.TrainingManagement.Core.DTOs.Requests
 
         public DateTime CreatedDate { get; set; }
 
+        public string CompanyAdress { get; set; }
+
+        public string ContactedPerson { get; set; }
+
 
     }
 }

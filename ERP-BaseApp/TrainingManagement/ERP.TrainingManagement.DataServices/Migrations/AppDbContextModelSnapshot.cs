@@ -46,13 +46,13 @@ namespace ERP.TrainingManagement.DataServices.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("2cc273dc-dd22-4956-aeec-edd92a41508f"),
+                            Id = new Guid("84ccf740-9d3a-4122-9258-805d7b21efd5"),
                             Name = "Student",
                             NormalizedName = "STUDENT"
                         },
                         new
                         {
-                            Id = new Guid("eed20dff-dec5-4b08-88f9-52901b028ce7"),
+                            Id = new Guid("6247c1a1-36d3-4cbe-aec9-b667207a506d"),
                             Name = "Coordinator",
                             NormalizedName = "COORDINATOR"
                         });
@@ -151,6 +151,14 @@ namespace ERP.TrainingManagement.DataServices.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Company")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CompanyAdress")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ContactedPerson")
                         .IsRequired()
                         .HasColumnType("TEXT");
 

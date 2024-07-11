@@ -11,6 +11,10 @@ namespace ERP.TrainingManagement.Core.Entities
         public Guid Id { get; set; }
         public Guid StudentId { get; set; }
         public string Company { get; set; }
+
+        public string CompanyAdress { get; set; } = string.Empty;
+
+        public string ContactedPerson { get; set; } = string.Empty;
         
         public Guid? ApprovedById { get; set; }
         public DateTime CreatedDate { get; set; }

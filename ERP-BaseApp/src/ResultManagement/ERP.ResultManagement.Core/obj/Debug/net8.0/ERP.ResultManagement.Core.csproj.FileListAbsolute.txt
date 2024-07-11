@@ -82,3 +82,15 @@ C:\Users\Asus\Desktop\Cricket\Final\ERP_New_MicroServices\ERP-BaseApp\src\Result
 C:\Users\Asus\Desktop\Cricket\Final\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\obj\Debug\net8.0\refint\ERP.ResultManagement.Core.dll
 C:\Users\Asus\Desktop\Cricket\Final\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\obj\Debug\net8.0\ERP.ResultManagement.Core.pdb
 C:\Users\Asus\Desktop\Cricket\Final\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\obj\Debug\net8.0\ref\ERP.ResultManagement.Core.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\bin\Debug\net8.0\ERP.ResultManagement.Core.deps.json
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\bin\Debug\net8.0\ERP.ResultManagement.Core.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\bin\Debug\net8.0\ERP.ResultManagement.Core.pdb
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\obj\Debug\net8.0\ERP.ResultManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\obj\Debug\net8.0\ERP.ResultManagement.Core.AssemblyInfoInputs.cache
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\obj\Debug\net8.0\ERP.ResultManagement.Core.AssemblyInfo.cs
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\obj\Debug\net8.0\ERP.ResultManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\obj\Debug\net8.0\ERP.ResultManagement.Core.sourcelink.json
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\obj\Debug\net8.0\ERP.ResultManagement.Core.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\obj\Debug\net8.0\refint\ERP.ResultManagement.Core.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\obj\Debug\net8.0\ERP.ResultManagement.Core.pdb
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BaseApp\src\ResultManagement\ERP.ResultManagement.Core\obj\Debug\net8.0\ref\ERP.ResultManagement.Core.dll
