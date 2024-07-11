@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP-WorkLoadManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a86148d0f2e88062a6d7aecad87ab3b89f22b41b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aef1282ccceb6c7a339411fd37da82e5fdf7b4aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP-WorkLoadManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP-WorkLoadManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

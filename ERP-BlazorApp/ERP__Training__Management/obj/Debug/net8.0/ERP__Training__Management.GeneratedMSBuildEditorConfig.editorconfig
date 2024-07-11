@@ -21,8 +21,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP__Training__Management
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Asus/Pictures/ERP_New_MicroServices/ERP-BlazorApp/ERP__Training__Management/Componenets/Coordinator/Add_New_Vacancy.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW5ldHNcQ29vcmRpbmF0b3JcQWRkX05ld19WYWNhbmN5LnJhem9y
+[C:/Users/Asus/Pictures/ERP_New_MicroServices/ERP-BlazorApp/ERP__Training__Management/Componenets/Coordinator/AddNewVacancy.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW5ldHNcQ29vcmRpbmF0b3JcQWRkTmV3VmFjYW5jeS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Asus/Pictures/ERP_New_MicroServices/ERP-BlazorApp/ERP__Training__Management/Componenets/Coordinator/EditInternshipVacancyDialog.razor]

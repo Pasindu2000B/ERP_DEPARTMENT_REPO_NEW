@@ -14,26 +14,26 @@
     else
     {
        
-        <MudTabPanel Text="List of Vacncies" @ref="panel02" Style="background-color: #ffe0b2;">
+        <MudTabPanel Text="List of Vacncies" @ref="panel01" Style="background-color: #ffe0b2;">
             <VacancyList/>
         </MudTabPanel>
 
-        <MudTabPanel Text="Add Vacancy" @ref="panel03" Style="background-color: #d1c4e9;">
-            <Add_New_Vacancy onAdded="Activate_01"/>
+        <MudTabPanel Text="Add Vacancy" @ref="panel02" Style="background-color: #d1c4e9;">
+            <AddNewVacancy OnAdded="Activate_01" />
         </MudTabPanel>
 
-        <MudTabPanel Text="RequestLetters" @ref="panel04" Style="background-color: #c8e6c9;">
+        <MudTabPanel Text="RequestLetters" @ref="panel03" Style="background-color: #c8e6c9;">
             <RequestLetters/>
         </MudTabPanel>
     }
 </MudTabs>
 
 @code {
-    MudTabs ? tabs;
-    MudTabPanel ? panel01;
-    MudTabPanel ? panel02;
-    MudTabPanel ? panel03;
-    MudTabPanel ? panel04;
+    MudTabs tabs;
+    MudTabPanel  panel01;
+    MudTabPanel  panel02;
+    MudTabPanel  panel03;
+    MudTabPanel  panel04;
 
     bool isLoading = true;
 
@@ -46,7 +46,7 @@
 
     void Activate_01()
     {
-        tabs.ActivatePanel(panel02);
+        tabs.ActivatePanel(panel01);
         Snackbar.Add("Training Addeded Successfully", Severity.Success);
     }
 }
