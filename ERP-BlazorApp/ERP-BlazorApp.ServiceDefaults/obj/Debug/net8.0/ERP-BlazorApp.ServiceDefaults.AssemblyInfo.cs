@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP-BlazorApp.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aef1282ccceb6c7a339411fd37da82e5fdf7b4aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db44b4f95b1d051e900c5c5c829b2389b74b85d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP-BlazorApp.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP-BlazorApp.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

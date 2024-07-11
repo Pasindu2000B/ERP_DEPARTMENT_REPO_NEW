@@ -118,12 +118,12 @@ namespace ERP.TrainingManagement.Api.Controllers
 
         }
 
-        [HttpPost("upload/registration-letter")]
+        [HttpPost("upload/registration-letter/{studnetId:guid}")]
         //[Authorize(Roles = "Student")]
-        public async Task<IActionResult> UploadRegistrationLetter([FromForm] UploadFileRequest request)
+        public async Task<IActionResult> UploadRegistrationLetter([FromForm] UploadFileRequest request,Guid studnetId )
         {
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var studentId = Guid.Parse(userId);
+            //var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            //var studentId = Guid.Parse(userId);
 
             using (var memoryStream = new MemoryStream())
             {
@@ -131,7 +131,7 @@ namespace ERP.TrainingManagement.Api.Controllers
                 var registrationLetterUpload = new RegistartionLetterUpload
                 {
                     Id = Guid.NewGuid(),
-                    StudentId = studentId,
+                    StudentId = studnetId,
                     FileName = request.File.FileName,
                     FileData = memoryStream.ToArray(),
                     UploadDate = DateTime.UtcNow
@@ -170,8 +170,25 @@ namespace ERP.TrainingManagement.Api.Controllers
             return File(file.FileData, "application/octet-stream", fileName);
         }
 
+        [HttpPut("{id:guid}/status")]
+        public async Task<IActionResult> UpdateStatus(Guid id, [FromBody] UpdateApprovalRequest request)
+        {
+            var approvalRequest = await _unitOfWork.AddApprovalRequestRepository.GetById(id);
+            if (approvalRequest == null)
+            {
+                return NotFound();
+            }
+
+            approvalRequest.status = 1;
+            await _unitOfWork.AddApprovalRequestRepository.Update(approvalRequest);
+            await _unitOfWork.CompleteAsync();
+
+            return NoContent();
+        }
+
 
     }
+
 }
 
 /*4

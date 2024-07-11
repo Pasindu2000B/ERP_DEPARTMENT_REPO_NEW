@@ -57,6 +57,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXBhcnRtZW50XFRyYWluaW5nXENvb3JkaW5hdG9yXENvb3JkaW5hdG9yYXpvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Asus/Pictures/ERP_New_MicroServices/ERP-BlazorApp/ERP.BlazorUI/Components/Pages/Department/Training/Coordinator/ViewRequests.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXBhcnRtZW50XFRyYWluaW5nXENvb3JkaW5hdG9yXFZpZXdSZXF1ZXN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Asus/Pictures/ERP_New_MicroServices/ERP-BlazorApp/ERP.BlazorUI/Components/Pages/Department/Training/Coordinator/ViewUpload.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXBhcnRtZW50XFRyYWluaW5nXENvb3JkaW5hdG9yXFZpZXdVcGxvYWQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
