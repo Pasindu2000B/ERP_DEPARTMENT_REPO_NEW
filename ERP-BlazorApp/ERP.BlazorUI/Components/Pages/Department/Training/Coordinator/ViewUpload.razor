@@ -11,11 +11,8 @@
     <MudText Typo="Typo.h6">Uploaded CVs</MudText>
     <MudDivider Class="my-4" />
 
+  
     @if (_cvUploads == null)
-    {
-        <MudProgressCircular Color="Color.Primary" Size="Size.Large" Indeterminate="true" />
-    }
-    else if (!_cvUploads.Any())
     {
         <MudText Typo="Typo.body1">No CVs available.</MudText>
     }
@@ -51,7 +48,7 @@
         }
         catch (Exception ex)
         {
-            Snackbar.Add("Failed to load CV uploads.", Severity.Error);
+           
         }
     }
 

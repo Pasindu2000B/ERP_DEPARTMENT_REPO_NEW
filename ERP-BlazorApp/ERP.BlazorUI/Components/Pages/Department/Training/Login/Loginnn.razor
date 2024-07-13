@@ -1,0 +1,74 @@
+﻿@page "/loginpages"
+@inject HttpClient Http
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
+@rendermode InteractiveServer
+@using Microsoft.AspNetCore.Components.Authorization
+@inject CustomAuthenticationStateProvider authState
+
+<h3>Login</h3>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
+
+<form @onsubmit="HandleLogin" action="javascript:void(0);">
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" type="text" class="form-control" @bind="loginRequest.Email" required />
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input id="password" type="password" class="form-control" @bind="loginRequest.Password" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+@code {
+    private LoginRequest loginRequest = new LoginRequest();
+    private string errorMessage;
+
+    private async Task HandleLogin()
+    {
+        errorMessage = string.Empty;
+
+        try
+        {
+            var response = await Http.PostAsJsonAsync("https://localhost:7103/api/Auth/login", loginRequest);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var result = await response.Content.ReadFromJsonAsync<LoginResponse>();
+                var token = result.Token;
+
+                await JSRuntime.InvokeVoidAsync("localStorage.setItem", "authToken", token);
+                authState.MarkUserAsAuthenticated(token);
+
+                Navigation.NavigateTo("https://localhost:7051/protected");
+            }
+            else
+            {
+                errorMessage = "Invalid login attempt.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"An error occurred: {ex.Message}";
+        }
+    }
+
+    public class LoginRequest
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
+
+    public class LoginResponse
+    {
+        public string Token { get; set; }
+        public DateTime Expiration { get; set; }
+    }
+}

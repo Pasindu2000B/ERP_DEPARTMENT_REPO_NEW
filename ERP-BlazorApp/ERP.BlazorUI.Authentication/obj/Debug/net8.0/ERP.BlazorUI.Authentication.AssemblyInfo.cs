@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP.BlazorUI.Authentication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a86148d0f2e88062a6d7aecad87ab3b89f22b41b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd58ac8f72659baaa0277c9bb1eccb4806ae87d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP.BlazorUI.Authentication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP.BlazorUI.Authentication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

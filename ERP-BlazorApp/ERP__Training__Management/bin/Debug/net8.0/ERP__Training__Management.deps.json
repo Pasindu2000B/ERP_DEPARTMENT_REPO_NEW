@@ -9,6 +9,7 @@
       "ERP__Training__Management/1.0.0": {
         "dependencies": {
           "FluentValidation": "11.9.2",
+          "Microsoft.AspNetCore.Components.Authorization": "8.0.7",
           "Microsoft.AspNetCore.Components.Web": "8.0.7",
           "MudBlazor": "7.0.0"
         },
@@ -50,6 +51,18 @@
         }
       },
       "Microsoft.AspNetCore.Components.Analyzers/8.0.7": {},
+      "Microsoft.AspNetCore.Components.Authorization/8.0.7": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "8.0.7",
+          "Microsoft.AspNetCore.Components": "8.0.7"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.724.31402"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Components.Forms/8.0.7": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "8.0.7"
@@ -221,6 +234,13 @@
       "sha512": "sha512-S186J2WX2+7wM43u1kJ/BGy2fndKCSe6Swhd2f3xKr0p5VcQUUsQMhkWslmpXuNTQlZyeNw1w6IWXbzQoU347Q==",
       "path": "microsoft.aspnetcore.components.analyzers/8.0.7",
       "hashPath": "microsoft.aspnetcore.components.analyzers.8.0.7.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Authorization/8.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KiLqaCcmxjmid4cRqg2QBf2JBP5YQnqxIeTptZRio0nLUYATv8xna2yhvJc3ht87tSphBFwE8XfBItPCwkudqw==",
+      "path": "microsoft.aspnetcore.components.authorization/8.0.7",
+      "hashPath": "microsoft.aspnetcore.components.authorization.8.0.7.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components.Forms/8.0.7": {
       "type": "package",

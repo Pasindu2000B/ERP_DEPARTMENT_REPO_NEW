@@ -170,6 +170,21 @@ namespace ERP.TrainingManagement.Api.Controllers
             return File(file.FileData, "application/octet-stream", fileName);
         }
 
+        [HttpGet("download/Register/{RegisterId:guid}")]
+        // [Authorize(Roles = "Student,Coordinator")]
+        public async Task<IActionResult> DownloadRegisterLetter(Guid RegisterId)
+        {
+            var file = await _unitOfWork.FileRepository.GetRegisterIdByRegisterUpload(RegisterId);
+            if (file == null)
+            {
+                return NotFound();
+            }
+
+            var fileName = file.FileName ?? $"CV_{RegisterId}.pdf";
+            return File(file.FileData, "application/octet-stream", fileName);
+        }
+
+
         [HttpPut("{id:guid}/status")]
         public async Task<IActionResult> UpdateStatus(Guid id, [FromBody] UpdateApprovalRequest request)
         {
@@ -185,9 +200,21 @@ namespace ERP.TrainingManagement.Api.Controllers
 
             return NoContent();
         }
+        [HttpGet("registration-letters/all")]
+        public async Task<IActionResult> GetAllRegistrationLetterUploads()
+        {
+            var registrationLetters = await _unitOfWork.FileRepository.All();
+            if (registrationLetters == null || !registrationLetters.Any())
+            {
+                return NotFound();
+            }
+
+            return Ok(registrationLetters);
+        }
 
 
     }
+
 
 }
 

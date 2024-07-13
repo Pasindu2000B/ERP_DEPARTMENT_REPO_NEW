@@ -18,7 +18,10 @@ namespace ERP.TrainingManagement.DataServices.Repository.Interfaces
         Task<List<CVUpload>> GetCVUploadsByVacancyIdAsync(Guid vacancyId);
 
         Task<CVUpload> GetCvByUploadIdByCVIDAsync(Guid cvUploadId);
-        
+        Task<RegistartionLetterUpload> GetRegisterIdByRegisterUpload(Guid RegisterId);
+
+        Task<IEnumerable<RegistartionLetterUpload>> All();
+
 
     }
 }

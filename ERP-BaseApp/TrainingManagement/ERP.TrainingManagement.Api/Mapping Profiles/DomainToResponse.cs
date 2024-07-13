@@ -16,6 +16,9 @@ namespace ERP.TrainingManagement.Api.Mapping_Profiles
             CreateMap<ApprovalRequest, GetApprovalRequestResponse>()
                  .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id));
 
+            CreateMap<Student, GetStudentResponse>()
+                .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id));
+
 
 
         }

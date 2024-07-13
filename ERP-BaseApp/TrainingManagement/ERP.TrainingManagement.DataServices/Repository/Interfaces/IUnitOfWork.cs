@@ -14,6 +14,8 @@ namespace ERP.TrainingManagement.DataServices.Repository.Interfaces
 
         IFileRepository FileRepository { get; }
 
+        IStudentManagementRepository studentManagementRepository { get; }
+
         Task<bool> CompleteAsync();
     }
 }

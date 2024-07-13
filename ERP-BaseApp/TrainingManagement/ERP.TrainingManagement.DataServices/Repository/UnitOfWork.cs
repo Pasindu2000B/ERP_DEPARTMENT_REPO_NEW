@@ -19,6 +19,8 @@ namespace ERP.TrainingManagement.DataServices.Repository
 
         public IApprovalRequestRepository AddApprovalRequestRepository {  get; }
 
+        public IStudentManagementRepository studentManagementRepository {  get; }
+
         public UnitOfWork(AppDbContext context, ILoggerFactory loggerFactory)
         {
             _context = context;
@@ -29,6 +31,8 @@ namespace ERP.TrainingManagement.DataServices.Repository
             AddApprovalRequestRepository=new ApprovalRequestsRepository(_context, logger);
 
             FileRepository = new FileRepository(_context);
+
+            studentManagementRepository=new StudentManagementRepository(_context, logger);  
         }
 
         public async Task<bool> CompleteAsync()

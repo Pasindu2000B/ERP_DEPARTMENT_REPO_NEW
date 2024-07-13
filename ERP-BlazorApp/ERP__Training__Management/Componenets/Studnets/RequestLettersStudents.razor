@@ -23,10 +23,10 @@
                         <MudTextField @bind-Value="model.Company" Label="Company" Required="true" For="@(() => model.Company)" />
                     </MudItem>
                     <MudItem xs="12">
-                        <MudTextField @bind-Value="model.ContactPerson" Label="Contact Person" Required="true" For="@(() => model.ContactPerson)" />
+                        <MudTextField @bind-Value="model.ContactedPerson" Label="Contact Person" Required="true" For="@(() => model.ContactedPerson)" />
                     </MudItem>
                     <MudItem xs="12">
-                        <MudTextField @bind-Value="model.ContactAdress" Label="Contact Address" Required="true" For="@(() => model.ContactAdress)" />
+                        <MudTextField @bind-Value="model.CompanyAdress" Label="Contact Address" Required="true" For="@(() => model.CompanyAdress)" />
                     </MudItem>
                     
                 </MudGrid>
@@ -51,30 +51,30 @@
 
 @code {
     private bool _processing = false;
-    private CreateInternshipVacancyRequest model = new CreateInternshipVacancyRequest();
+    private CreateApprovalRequest model = new CreateApprovalRequest();
     private InternshipVacancyValidator validator = new InternshipVacancyValidator();
     private MudForm form;
 
     [Parameter]
     public EventCallback OnAdded { get; set; }
 
-    public class CreateInternshipVacancyRequest
+    public class CreateApprovalRequest
     {
-        public string ContactPerson { get; set; }
-        public string ContactAdress { get; set; }
+        public string ContactedPerson { get; set; }
+        public string CompanyAdress { get; set; }
         public string Company { get; set; }
     }
 
-    public class InternshipVacancyValidator : AbstractValidator<CreateInternshipVacancyRequest>
+    public class InternshipVacancyValidator : AbstractValidator<CreateApprovalRequest>
     {
         public InternshipVacancyValidator()
         {
-            RuleFor(x => x.ContactPerson)
+            RuleFor(x => x.ContactedPerson)
                 .NotEmpty().WithMessage("Title is required.")
                 .MinimumLength(3).WithMessage("Title must be at least 3 characters.")
                 .MaximumLength(100).WithMessage("Title must be at most 100 characters.");
 
-            RuleFor(x => x.ContactAdress)
+            RuleFor(x => x.ContactedPerson)
                 .NotEmpty().WithMessage("Description is required.")
                 .MinimumLength(10).WithMessage("Description must be at least 10 characters.")
                 .MaximumLength(1000).WithMessage("Description must be at most 1000 characters.");
@@ -87,8 +87,8 @@
 
         public Func<object, string, Task<IEnumerable<string>>> ValidateValue => async (model, propertyName) =>
         {
-            var result = await ValidateAsync(ValidationContext<CreateInternshipVacancyRequest>
-                .CreateWithOptions((CreateInternshipVacancyRequest)model, x => x.IncludeProperties(propertyName)));
+            var result = await ValidateAsync(ValidationContext<CreateApprovalRequest>
+                .CreateWithOptions((CreateApprovalRequest)model, x => x.IncludeProperties(propertyName)));
             if (result.IsValid)
                 return Array.Empty<string>();
             return result.Errors.Select(e => e.ErrorMessage);

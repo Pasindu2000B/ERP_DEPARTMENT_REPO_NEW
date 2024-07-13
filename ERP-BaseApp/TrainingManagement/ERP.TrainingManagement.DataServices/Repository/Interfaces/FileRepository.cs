@@ -10,6 +10,7 @@ using ERP.TrainingManagement.DataServices.Data;
 using ERP.TrainingManagement.DataServices.Repositories;
 using ERP.TrainingManagement.DataServices.Repository.Interfaces;
 using Microsoft.Extensions.Logging;
+using ERP.TrainingManagement.DataServices.Migrations;
 
 
 namespace ERP.TrainingManagement.DataServices.Repository.Interfaces
@@ -35,7 +36,10 @@ namespace ERP.TrainingManagement.DataServices.Repository.Interfaces
             await _context.RegistrationLetterUploads.AddRangeAsync(registrationLetterUpload);
         }
 
-      
+        public async Task<IEnumerable<RegistartionLetterUpload>> All()
+        {
+            return await _context.RegistrationLetterUploads.ToListAsync();
+        }
 
         public async Task<CVUpload> GetCvByUploadIdByCVIDAsync(Guid cvUploadId)
         {
@@ -53,6 +57,11 @@ namespace ERP.TrainingManagement.DataServices.Repository.Interfaces
             return await _context.CVUploads
                 .Where(c => c.VacancyId == vacancyId)
                 .ToListAsync();
+        }
+
+        public async Task<RegistartionLetterUpload> GetRegisterIdByRegisterUpload(Guid RegisterId)
+        {
+            return await _context.RegistrationLetterUploads.FirstOrDefaultAsync(f => f.Id == RegisterId);
         }
 
         public async Task<IEnumerable<RegistartionLetterUpload>> GetRegistrationLettersByStudentIdAsync(Guid studentId)

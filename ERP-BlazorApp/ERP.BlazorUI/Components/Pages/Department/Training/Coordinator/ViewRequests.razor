@@ -26,17 +26,14 @@
             else
             {
                 <MudText Typo="Typo.body1"><b>Student ID:</b> @approvalRequest.StudentId</MudText>
-                <MudText Typo="Typo.body1"><b>Description:</b> @approvalRequest.Description</MudText>
-                <MudText Typo="Typo.body1"><b>Status:</b> @approvalRequest.Status</MudText>
-
                 <MudDivider Class="my-4" />
 
                 <EditForm Model="@fileUploadRequest">
-                    <MudTextField @bind-Value="fileUploadRequest.Description" Label="Description" Required="true" />
-
                     <MudText Typo="Typo.body1" Class="mt-4">Upload Registration Letter</MudText>
+                    <MudText Typo="Typo.body1"><b>Company Address:</b> @approvalRequest.companyAddress</MudText>
+                    <MudText Typo="Typo.body1"><b>Company Name:</b> @approvalRequest.Company</MudText>
+                    <MudText Typo="Typo.body1"><b>Contacted Person:</b> @approvalRequest.contactedPerson</MudText>
                     <InputFile OnChange="HandleFileSelected" />
-
                     <MudButton Disabled="@_processing" OnClick="UploadFile" Variant="Variant.Filled" Color="Color.Primary" Class="mt-4">Upload</MudButton>
                 </EditForm>
             }
@@ -78,7 +75,7 @@
                     fileContent.Headers.ContentType = new MediaTypeHeaderValue(selectedFile.ContentType);
 
                     content.Add(fileContent, "file", selectedFile.Name);
-                    content.Add(new StringContent(fileUploadRequest.Description), "Description");
+                    content.Add(new StringContent(fileUploadRequest.Description ?? string.Empty), "Description");
 
                     var response = await Http.PostAsync($"https://localhost:7270/api/File/upload/registration-letter/{approvalRequest.StudentId}", content);
 
@@ -140,5 +137,8 @@
         public Guid StudentId { get; set; }
         public string Description { get; set; }
         public int Status { get; set; }
+        public string Company { get; set; }
+        public string companyAddress { get; set; }
+        public string contactedPerson { get; set; }
     }
 }

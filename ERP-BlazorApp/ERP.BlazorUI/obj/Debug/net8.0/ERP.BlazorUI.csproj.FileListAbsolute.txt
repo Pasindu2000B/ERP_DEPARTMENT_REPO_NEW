@@ -180,6 +180,7 @@ C:\Users\Asus\Desktop\Cricket\Final\ERP_New_MicroServices\ERP-BlazorApp\ERP.Blaz
 C:\Users\Asus\Desktop\Cricket\Final\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ERP.BlazorUI.pdb
 C:\Users\Asus\Desktop\Cricket\Final\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ERP.BlazorUI.genruntimeconfig.cache
 C:\Users\Asus\Desktop\Cricket\Final\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ref\ERP.BlazorUI.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP__Training__Management.staticwebassets.runtime.json
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP-StudentRegistration.staticwebassets.runtime.json
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP-GraduateManagement.staticwebassets.runtime.json
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP-LabEquipmentManagement.staticwebassets.runtime.json
@@ -247,6 +248,8 @@ C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debu
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP-LabScheduleManagement.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP-StudentRegistration.dll
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP-WorkLoadManagement.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP__Training__Management.dll
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP__Training__Management.pdb
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP-StudentRegistration.pdb
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP-GraduateManagement.pdb
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP-LabEquipmentManagement.pdb
@@ -277,6 +280,4 @@ C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debu
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ERP.BlazorUI.pdb
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ERP.BlazorUI.genruntimeconfig.cache
 C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\obj\Debug\net8.0\ref\ERP.BlazorUI.dll
-C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP__Training__Management.staticwebassets.runtime.json
-C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP__Training__Management.dll
-C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\ERP__Training__Management.pdb
+C:\Users\Asus\Pictures\ERP_New_MicroServices\ERP-BlazorApp\ERP.BlazorUI\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Authorization.dll

@@ -158,6 +158,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.TrainingManagement.Core
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.TrainingManagement.DataServices", "TrainingManagement\ERP.TrainingManagement.DataServices\ERP.TrainingManagement.DataServices.csproj", "{E577C683-42FD-4D66-B47E-CB49547AC6FC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoginManagement", "LoginManagement", "{3F112332-D4B3-4A39-A175-977D4A08DCAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginManagement.Api", "LoginManagement\LoginManagement.Api\LoginManagement.Api.csproj", "{CB53756D-E6D0-418C-87C0-BAAEA50A6286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginManagement.DataService", "LoginManagement\LoginManagement.DataService\LoginManagement.DataService.csproj", "{14B35202-7ABE-46E2-A189-D7A75876C651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginManagement.Core", "LoginManagement\LoginManagement.Core\LoginManagement.Core.csproj", "{EF05D1F0-FBB1-490B-AB79-67955BE61723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginManagement.Application", "LoginManagement\LoginManagement.Application\LoginManagement.Application.csproj", "{35853472-2709-42AA-A43D-9521E94DEC58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -392,6 +402,22 @@ Global
 		{E577C683-42FD-4D66-B47E-CB49547AC6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E577C683-42FD-4D66-B47E-CB49547AC6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E577C683-42FD-4D66-B47E-CB49547AC6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB53756D-E6D0-418C-87C0-BAAEA50A6286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB53756D-E6D0-418C-87C0-BAAEA50A6286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB53756D-E6D0-418C-87C0-BAAEA50A6286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB53756D-E6D0-418C-87C0-BAAEA50A6286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B35202-7ABE-46E2-A189-D7A75876C651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B35202-7ABE-46E2-A189-D7A75876C651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B35202-7ABE-46E2-A189-D7A75876C651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B35202-7ABE-46E2-A189-D7A75876C651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF05D1F0-FBB1-490B-AB79-67955BE61723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF05D1F0-FBB1-490B-AB79-67955BE61723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF05D1F0-FBB1-490B-AB79-67955BE61723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF05D1F0-FBB1-490B-AB79-67955BE61723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35853472-2709-42AA-A43D-9521E94DEC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35853472-2709-42AA-A43D-9521E94DEC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35853472-2709-42AA-A43D-9521E94DEC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35853472-2709-42AA-A43D-9521E94DEC58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -457,6 +483,10 @@ Global
 		{112FCD94-6863-4015-8BFA-D453CC809115} = {FF5C13DC-D697-4820-B88C-BA1B06871ED3}
 		{67FDC150-8CC0-40BD-8C6B-D69F2E60AA87} = {FF5C13DC-D697-4820-B88C-BA1B06871ED3}
 		{E577C683-42FD-4D66-B47E-CB49547AC6FC} = {FF5C13DC-D697-4820-B88C-BA1B06871ED3}
+		{CB53756D-E6D0-418C-87C0-BAAEA50A6286} = {3F112332-D4B3-4A39-A175-977D4A08DCAA}
+		{14B35202-7ABE-46E2-A189-D7A75876C651} = {3F112332-D4B3-4A39-A175-977D4A08DCAA}
+		{EF05D1F0-FBB1-490B-AB79-67955BE61723} = {3F112332-D4B3-4A39-A175-977D4A08DCAA}
+		{35853472-2709-42AA-A43D-9521E94DEC58} = {3F112332-D4B3-4A39-A175-977D4A08DCAA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EFC59B45-8A1B-45B0-AA0C-9897743CD009}

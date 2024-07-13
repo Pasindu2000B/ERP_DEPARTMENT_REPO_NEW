@@ -1,12 +1,15 @@
 @using System.Net.Http.Json
 @using MudBlazor
+@using Microsoft.AspNetCore.Components.Forms
 @inject NavigationManager NavigationManager
 @inject IDialogService DialogService
 @inject ISnackbar Snackbar
 
-@if (_internshipVacancies.Count > 0)
+<MudTextField T="string" Label="Search" @bind-Value="_searchString" Immediate="true" Placeholder="Search by title, description, or company" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" Margin="Margin.Dense" Class="my-2" />
+
+@if (_filteredInternshipVacancies.Count > 0)
 {
-    <MudTable Items="@_internshipVacancies">
+    <MudTable Items="@_filteredInternshipVacancies">
         <HeaderContent>
             <MudTh>Title</MudTh>
             <MudTh>Description</MudTh>
@@ -23,6 +26,9 @@
                 <div class="button-group" style="@buttonGroupStyle">
                     <MudFab Color="Color.Secondary" OnClick="@(async () => await ShowVacancy(context.Id))"
                             StartIcon="@Icons.Material.Filled.Info" Size="Size.Small" />
+                    <InputFile OnChange="@(e => HandleFileSelected(e, context.Id))" />
+                    <MudFab Color="Color.Primary" OnClick="@(async () => await UploadCV(context.Id))"
+                            StartIcon="@Icons.Material.Filled.UploadFile" Size="Size.Small" />
                 </div>
             </MudTd>
         </RowTemplate>
@@ -47,14 +53,21 @@ else
 
 @code {
     private string buttonGroupStyle = "display: flex; gap: 8px;";
-
     private HttpClient Http = new HttpClient();
-
     MudMessageBox mbox { get; set; }
-
     public EventCallback onDelete { get; set; }
 
     private List<InternshipVacancy> _internshipVacancies = new List<InternshipVacancy>();
+    private List<InternshipVacancy> _filteredInternshipVacancies => string.IsNullOrWhiteSpace(_searchString)
+        ? _internshipVacancies
+        : _internshipVacancies.Where(v =>
+            v.Title.Contains(_searchString, StringComparison.OrdinalIgnoreCase) ||
+            v.Description.Contains(_searchString, StringComparison.OrdinalIgnoreCase) ||
+            v.Company.Contains(_searchString, StringComparison.OrdinalIgnoreCase)).ToList();
+
+    private string _searchString = string.Empty;
+    private Dictionary<Guid, IBrowserFile> _selectedFiles = new Dictionary<Guid, IBrowserFile>();
+    private Guid studentId = Guid.Parse("1EA0E241-DC0F-4786-9A5F-10D6BE45C3B0"); // Example student ID
 
     protected override async Task OnInitializedAsync()
     {
@@ -86,7 +99,44 @@ else
         await dialog.Result;
     }
 
-   
+    private void HandleFileSelected(InputFileChangeEventArgs e, Guid vacancyId)
+    {
+        _selectedFiles[vacancyId] = e.File;
+    }
+
+    private async Task UploadCV(Guid vacancyId)
+    {
+        if (_selectedFiles.TryGetValue(vacancyId, out var selectedFile))
+        {
+            var content = new MultipartFormDataContent();
+            var fileContent = new StreamContent(selectedFile.OpenReadStream(maxAllowedSize: 10 * 1024 * 1024)); // Max 10 MB
+            fileContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(selectedFile.ContentType);
+            content.Add(fileContent, "File", selectedFile.Name);
+
+            content.Add(new StringContent(studentId.ToString()), "StudentId");
+            content.Add(new StringContent(vacancyId.ToString()), "VacancyId");
+
+            var uploadUrl = $"https://localhost:7270/api/File/upload/cv/{vacancyId}/{studentId}";
+
+            var response = await Http.PostAsync(uploadUrl, content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                Snackbar.Add("CV uploaded successfully.", Severity.Success);
+                _selectedFiles[vacancyId] = null; // Clear the selected file
+                StateHasChanged(); // Trigger a re-render to update the UI
+            }
+            else
+            {
+                Snackbar.Add("Failed to upload CV.", Severity.Error);
+            }
+        }
+        else
+        {
+            Snackbar.Add("Please select a file before uploading.", Severity.Warning);
+        }
+    }
+
     public class InternshipVacancy
     {
         public Guid Id { get; set; }
@@ -97,4 +147,3 @@ else
         public DateTime ModifiedDate { get; set; }
     }
 }
-

@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using System;
 
 namespace ERP.TrainingManagement.Core.DTOs.Responses
 {
@@ -14,8 +8,7 @@ namespace ERP.TrainingManagement.Core.DTOs.Responses
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-        public int RegisterNumber { get; set; }
+        public int Regesiter_Number { get; set; }
         public string Department { get; set; }
-       
     }
 }

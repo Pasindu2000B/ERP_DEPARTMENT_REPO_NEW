@@ -1,4 +1,6 @@
 using ERP.BlazorUI.Components;
+using ERP.BlazorUI.Components.Pages.Department.Training.Login;
+using ERP__Training__Management.Services;
 using ERP_LabEquipmentManagement.DTOs.Response;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Components.Authorization;
@@ -6,72 +8,66 @@ using Microsoft.IdentityModel.Tokens;
 using MudBlazor.Services;
 using System.Text;
 
-
-
-
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-
-
-builder.Services.AddMudServices();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 builder.Services.AddScoped<CustomAuthenticationStateProvider, CustomAuthenticationStateProvider>();
-builder.Services.AddHttpClient();
+builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
+builder.Services.AddScoped<CustomAuthenticationStateProvider>();
 
-
-var key = Encoding.ASCII.GetBytes("a-very-long-randomly-generated-secure-key-1234567890123456");
-builder.Services.AddAuthentication(x =>
-{
-    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-.AddJwtBearer(x =>
-{
-    x.RequireHttpsMetadata = false;
-    x.SaveToken = true;
-    x.TokenValidationParameters = new TokenValidationParameters
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
     {
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
-        ValidateIssuer = false,
-        ValidateAudience = false
-    };
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Issuer"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+    });
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("CoordinatorOnly", policy => policy.RequireRole("Coordinator"));
+    options.AddPolicy("Student", policy => policy.RequireRole("Student"));
 });
+
+builder.Services.AddMudServices();
 
 
 
 // Add HttpClient for making API requests
+builder.Services.AddTransient<AuthorizationMessageHandler>();
 
-builder.Services.AddAuthorization(options =>
+builder.Services.AddHttpClient("AuthorizedClient", client =>
 {
-    options.AddPolicy("Coordinator", policy => policy.RequireRole("Coordinator"));
-    options.AddPolicy("Student", policy => policy.RequireRole("Student"));
-});
-
-
+    client.BaseAddress = new Uri("https://localhost:7051/"); // Change to your API base address
+})
+.AddHttpMessageHandler<AuthorizationMessageHandler>();
 
 var app = builder.Build();
-
-
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
 app.UseAntiforgery();
 
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();

@@ -1,0 +1,7 @@
+﻿@page "/protected"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Policy = "CoordinatorOnly")]
+
+<h3>Protected Page</h3>
+
+<p>This content is only for coordinators.</p>

@@ -9,6 +9,6 @@ namespace ERP.TrainingManagement.DataServices.Repository.Interfaces
 {
     public interface IStudentManagementRepository: IGenericRepository<ApplicationUser>
     {
-
+        Task<Student?> GetStudentByRegisterNumber(int registerNumber);
     }
 }

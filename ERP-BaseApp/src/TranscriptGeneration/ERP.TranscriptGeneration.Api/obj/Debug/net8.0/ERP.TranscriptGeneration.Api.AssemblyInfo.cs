@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP.TranscriptGeneration.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1aeec65f3c9cbf09721b57db5ab2ad163e0e280b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd58ac8f72659baaa0277c9bb1eccb4806ae87d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP.TranscriptGeneration.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP.TranscriptGeneration.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

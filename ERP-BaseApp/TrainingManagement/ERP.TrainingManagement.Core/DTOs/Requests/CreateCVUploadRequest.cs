@@ -11,12 +11,18 @@ namespace ERP.TrainingManagement.Core.DTOs.Requests
     public class CreateCVUploadRequest
     {
         [FromForm(Name = "StudentId")]
-        public string StudentId { get; set; }
+        public Guid StudentId { get; set; }
 
-        public string VacancyId { get; set; }
+        public Guid VacancyId { get; set; }
 
         [FromForm(Name = "File")]
         public IFormFile File { get; set; }
+
+        public CreateCVUploadRequest()
+        {
+            StudentId= Guid.Parse("1EA0E241-DC0F-4786-9A5F-10D6BE45C3B0");
+
+        }
 
     }
 }
