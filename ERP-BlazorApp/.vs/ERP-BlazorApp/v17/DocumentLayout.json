@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6AB011D-83B9-470E-8B34-C1C1F7164D6D}|ERP__Training__Management\\ERP__Training__Management.csproj|c:\\users\\asus\\pictures\\erp_new_microservices\\erp-blazorapp\\erp__training__management\\componenets\\studnets\\registerlettersstudnet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A6AB011D-83B9-470E-8B34-C1C1F7164D6D}|ERP__Training__Management\\ERP__Training__Management.csproj|solutionrelative:erp__training__management\\componenets\\studnets\\registerlettersstudnet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A6AB011D-83B9-470E-8B34-C1C1F7164D6D}|ERP__Training__Management\\ERP__Training__Management.csproj|c:\\users\\asus\\pictures\\erp_new_microservices\\erp-blazorapp\\erp__training__management\\componenets\\studnets\\requestlettersstudents.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6AB011D-83B9-470E-8B34-C1C1F7164D6D}|ERP__Training__Management\\ERP__Training__Management.csproj|solutionrelative:erp__training__management\\componenets\\studnets\\requestlettersstudents.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925654CF-7EFF-4D1D-BC98-2B41F5BDC682}|ERP.BlazorUI\\ERP.BlazorUI.csproj|c:\\users\\asus\\pictures\\erp_new_microservices\\erp-blazorapp\\erp.blazorui\\components\\pages\\department\\training\\coordinator\\viewrequests.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{925654CF-7EFF-4D1D-BC98-2B41F5BDC682}|ERP.BlazorUI\\ERP.BlazorUI.csproj|solutionrelative:erp.blazorui\\components\\pages\\department\\training\\coordinator\\viewrequests.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A6AB011D-83B9-470E-8B34-C1C1F7164D6D}|ERP__Training__Management\\ERP__Training__Management.csproj|c:\\users\\asus\\pictures\\erp_new_microservices\\erp-blazorapp\\erp__training__management\\componenets\\studnets\\registerlettersstudnet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6AB011D-83B9-470E-8B34-C1C1F7164D6D}|ERP__Training__Management\\ERP__Training__Management.csproj|solutionrelative:erp__training__management\\componenets\\studnets\\registerlettersstudnet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6AB011D-83B9-470E-8B34-C1C1F7164D6D}|ERP__Training__Management\\ERP__Training__Management.csproj|c:\\users\\asus\\pictures\\erp_new_microservices\\erp-blazorapp\\erp__training__management\\componenets\\studnets\\vacancyliststudent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A6AB011D-83B9-470E-8B34-C1C1F7164D6D}|ERP__Training__Management\\ERP__Training__Management.csproj|solutionrelative:erp__training__management\\componenets\\studnets\\vacancyliststudent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F96CDB98-75FC-4BA8-81F4-D31E4D4241DD}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|c:\\users\\asus\\pictures\\erp_new_microservices\\erp-blazorapp\\erp-graduatemanagement\\graduatecomponents\\graduatefilterpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F96CDB98-75FC-4BA8-81F4-D31E4D4241DD}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|solutionrelative:erp-graduatemanagement\\graduatecomponents\\graduatefilterpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{925654CF-7EFF-4D1D-BC98-2B41F5BDC682}|ERP.BlazorUI\\ERP.BlazorUI.csproj|c:\\users\\asus\\pictures\\erp_new_microservices\\erp-blazorapp\\erp.blazorui\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925654CF-7EFF-4D1D-BC98-2B41F5BDC682}|ERP.BlazorUI\\ERP.BlazorUI.csproj|solutionrelative:erp.blazorui\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6AB011D-83B9-470E-8B34-C1C1F7164D6D}|ERP__Training__Management\\ERP__Training__Management.csproj|c:\\users\\asus\\pictures\\erp_new_microservices\\erp-blazorapp\\erp__training__management\\componenets\\studnets\\requestlettersstudents.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A6AB011D-83B9-470E-8B34-C1C1F7164D6D}|ERP__Training__Management\\ERP__Training__Management.csproj|solutionrelative:erp__training__management\\componenets\\studnets\\requestlettersstudents.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{925654CF-7EFF-4D1D-BC98-2B41F5BDC682}|ERP.BlazorUI\\ERP.BlazorUI.csproj|c:\\users\\asus\\pictures\\erp_new_microservices\\erp-blazorapp\\erp.blazorui\\components\\pages\\department\\graduates\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925654CF-7EFF-4D1D-BC98-2B41F5BDC682}|ERP.BlazorUI\\ERP.BlazorUI.csproj|solutionrelative:erp.blazorui\\components\\pages\\department\\graduates\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925654CF-7EFF-4D1D-BC98-2B41F5BDC682}|ERP.BlazorUI\\ERP.BlazorUI.csproj|c:\\users\\asus\\pictures\\erp_new_microservices\\erp-blazorapp\\erp.blazorui\\components\\pages\\department\\training\\coordinator\\viewrequests.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925654CF-7EFF-4D1D-BC98-2B41F5BDC682}|ERP.BlazorUI\\ERP.BlazorUI.csproj|solutionrelative:erp.blazorui\\components\\pages\\department\\training\\coordinator\\viewrequests.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96CDB98-75FC-4BA8-81F4-D31E4D4241DD}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|c:\\users\\asus\\pictures\\erp_new_microservices\\erp-blazorapp\\erp-graduatemanagement\\graduatecomponents\\graduatefilterpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F96CDB98-75FC-4BA8-81F4-D31E4D4241DD}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|solutionrelative:erp-graduatemanagement\\graduatecomponents\\graduatefilterpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6AB011D-83B9-470E-8B34-C1C1F7164D6D}|ERP__Training__Management\\ERP__Training__Management.csproj|c:\\users\\asus\\pictures\\erp_new_microservices\\erp-blazorapp\\erp__training__management\\componenets\\coordinator\\trainingcoordintortabs.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +66,81 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GraduateFilterPage.razor",
+              "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-GraduateManagement\\GraduateComponents\\GraduateFilterPage.razor",
+              "RelativeDocumentMoniker": "ERP-GraduateManagement\\GraduateComponents\\GraduateFilterPage.razor",
+              "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-GraduateManagement\\GraduateComponents\\GraduateFilterPage.razor",
+              "RelativeToolTip": "ERP-GraduateManagement\\GraduateComponents\\GraduateFilterPage.razor",
+              "ViewState": "AQIAADoAAAAAAAAAAAAQwFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T06:42:46.042Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RequestLettersStudents.razor",
+              "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\Componenets\\Studnets\\RequestLettersStudents.razor",
+              "RelativeDocumentMoniker": "ERP__Training__Management\\Componenets\\Studnets\\RequestLettersStudents.razor",
+              "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\Componenets\\Studnets\\RequestLettersStudents.razor",
+              "RelativeToolTip": "ERP__Training__Management\\Componenets\\Studnets\\RequestLettersStudents.razor",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T06:12:38.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RequestLetters.razor",
+              "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\Componenets\\Coordinator\\RequestLetters.razor",
+              "RelativeDocumentMoniker": "ERP__Training__Management\\Componenets\\Coordinator\\RequestLetters.razor",
+              "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\Componenets\\Coordinator\\RequestLetters.razor",
+              "RelativeToolTip": "ERP__Training__Management\\Componenets\\Coordinator\\RequestLetters.razor",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T06:31:51.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewRequests.razor",
+              "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewRequests.razor",
+              "RelativeDocumentMoniker": "ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewRequests.razor",
+              "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewRequests.razor",
+              "RelativeToolTip": "ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewRequests.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T06:31:42.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewUpload.razor",
+              "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewUpload.razor",
+              "RelativeDocumentMoniker": "ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewUpload.razor",
+              "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewUpload.razor",
+              "RelativeToolTip": "ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewUpload.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T06:31:37.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VacancyListStudent.razor",
+              "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\Componenets\\Studnets\\VacancyListStudent.razor",
+              "RelativeDocumentMoniker": "ERP__Training__Management\\Componenets\\Studnets\\VacancyListStudent.razor",
+              "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\Componenets\\Studnets\\VacancyListStudent.razor",
+              "RelativeToolTip": "ERP__Training__Management\\Componenets\\Studnets\\VacancyListStudent.razor",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAiwG8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T05:56:01.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RegisterLettersStudnet.razor",
               "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\Componenets\\Studnets\\RegisterLettersStudnet.razor",
               "RelativeDocumentMoniker": "ERP__Training__Management\\Componenets\\Studnets\\RegisterLettersStudnet.razor",
@@ -72,84 +154,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GraduateFilterPage.razor",
-              "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-GraduateManagement\\GraduateComponents\\GraduateFilterPage.razor",
-              "RelativeDocumentMoniker": "ERP-GraduateManagement\\GraduateComponents\\GraduateFilterPage.razor",
-              "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP-GraduateManagement\\GraduateComponents\\GraduateFilterPage.razor",
-              "RelativeToolTip": "ERP-GraduateManagement\\GraduateComponents\\GraduateFilterPage.razor",
-              "ViewState": "AQIAADoAAAAAAAAAAAAQwFQAAAAAAAAA",
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP.BlazorUI\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ERP.BlazorUI\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP.BlazorUI\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "ERP.BlazorUI\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAABQAAAAAAAAAAAAiwBsAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-13T06:42:46.042Z",
+              "WhenOpened": "2024-07-13T07:49:39.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RequestLettersStudents.razor",
-              "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\Componenets\\Studnets\\RequestLettersStudents.razor",
-              "RelativeDocumentMoniker": "ERP__Training__Management\\Componenets\\Studnets\\RequestLettersStudents.razor",
-              "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\Componenets\\Studnets\\RequestLettersStudents.razor",
-              "RelativeToolTip": "ERP__Training__Management\\Componenets\\Studnets\\RequestLettersStudents.razor",
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP.BlazorUI\\Components\\Pages\\Department\\Graduates\\_Host.cshtml",
+              "RelativeDocumentMoniker": "ERP.BlazorUI\\Components\\Pages\\Department\\Graduates\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP.BlazorUI\\Components\\Pages\\Department\\Graduates\\_Host.cshtml",
+              "RelativeToolTip": "ERP.BlazorUI\\Components\\Pages\\Department\\Graduates\\_Host.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-13T06:12:38.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RequestLetters.razor",
-              "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\Componenets\\Coordinator\\RequestLetters.razor",
-              "RelativeDocumentMoniker": "ERP__Training__Management\\Componenets\\Coordinator\\RequestLetters.razor",
-              "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\Componenets\\Coordinator\\RequestLetters.razor",
-              "RelativeToolTip": "ERP__Training__Management\\Componenets\\Coordinator\\RequestLetters.razor",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-13T06:31:51.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ViewRequests.razor",
-              "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewRequests.razor",
-              "RelativeDocumentMoniker": "ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewRequests.razor",
-              "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewRequests.razor",
-              "RelativeToolTip": "ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewRequests.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-13T06:31:42.155Z",
+              "WhenOpened": "2024-07-13T07:49:36.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ViewUpload.razor",
-              "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewUpload.razor",
-              "RelativeDocumentMoniker": "ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewUpload.razor",
-              "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewUpload.razor",
-              "RelativeToolTip": "ERP.BlazorUI\\Components\\Pages\\Department\\Training\\Coordinator\\ViewUpload.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-13T06:31:37.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VacancyListStudent.razor",
-              "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\Componenets\\Studnets\\VacancyListStudent.razor",
-              "RelativeDocumentMoniker": "ERP__Training__Management\\Componenets\\Studnets\\VacancyListStudent.razor",
-              "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\Componenets\\Studnets\\VacancyListStudent.razor",
-              "RelativeToolTip": "ERP__Training__Management\\Componenets\\Studnets\\VacancyListStudent.razor",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAEwJUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-13T05:56:01.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "TrainingCoordintorTabs.razor",
               "DocumentMoniker": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BlazorApp\\ERP__Training__Management\\Componenets\\Coordinator\\TrainingCoordintorTabs.razor",
               "RelativeDocumentMoniker": "ERP__Training__Management\\Componenets\\Coordinator\\TrainingCoordintorTabs.razor",
@@ -157,8 +187,7 @@
               "RelativeToolTip": "ERP__Training__Management\\Componenets\\Coordinator\\TrainingCoordintorTabs.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-13T06:31:59.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-13T06:31:59.41Z"
             }
           ]
         },

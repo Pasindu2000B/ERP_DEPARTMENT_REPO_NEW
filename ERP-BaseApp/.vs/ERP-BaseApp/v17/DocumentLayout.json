@@ -127,8 +127,8 @@
       "RelativeMoniker": "D:0:0:{CB53756D-E6D0-418C-87C0-BAAEA50A6286}|LoginManagement\\LoginManagement.Api\\LoginManagement.Api.csproj|solutionrelative:loginmanagement\\loginmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BaseApp\\TrainingManagement\\ERP.TrainingManagement.Core\\DTOs\\Responses\\GetRequestLettersResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrainingManagement\\ERP.TrainingManagement.Core\\DTOs\\Responses\\GetRequestLettersResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67FDC150-8CC0-40BD-8C6B-D69F2E60AA87}|TrainingManagement\\ERP.TrainingManagement.Core\\ERP.TrainingManagement.Core.csproj|c:\\users\\asus\\pictures\\erp_new_microservices\\erp-baseapp\\trainingmanagement\\erp.trainingmanagement.core\\dtos\\responses\\getrequestlettersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67FDC150-8CC0-40BD-8C6B-D69F2E60AA87}|TrainingManagement\\ERP.TrainingManagement.Core\\ERP.TrainingManagement.Core.csproj|solutionrelative:trainingmanagement\\erp.trainingmanagement.core\\dtos\\responses\\getrequestlettersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -160,7 +160,7 @@
               "RelativeDocumentMoniker": "TrainingManagement\\ERP.TrainingManagement.Core\\DTOs\\Requests\\CreateCVUploadRequest.cs",
               "ToolTip": "C:\\Users\\Asus\\Pictures\\ERP_New_MicroServices\\ERP-BaseApp\\TrainingManagement\\ERP.TrainingManagement.Core\\DTOs\\Requests\\CreateCVUploadRequest.cs",
               "RelativeToolTip": "TrainingManagement\\ERP.TrainingManagement.Core\\DTOs\\Requests\\CreateCVUploadRequest.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAswBwAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA9wBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T05:56:38.71Z",
               "EditorCaption": ""
@@ -175,8 +175,7 @@
               "RelativeToolTip": "TrainingManagement\\ERP.TrainingManagement.Core\\DTOs\\Requests\\CreateApprovalRequest.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAABUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T05:13:47.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-13T05:13:47.061Z"
             },
             {
               "$type": "Document",
@@ -188,8 +187,7 @@
               "RelativeToolTip": "TrainingManagement\\ERP.TrainingManagement.Api\\Controllers\\FileController.cs",
               "ViewState": "AQIAAKYAAAAAAAAAAAAAAKwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T04:18:18.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-13T04:18:18.959Z"
             },
             {
               "$type": "Document",
@@ -201,8 +199,7 @@
               "RelativeToolTip": "TrainingManagement\\ERP.TrainingManagement.DataServices\\Repository\\Interfaces\\FileRepository.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAAAD0AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T17:41:55.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T17:41:55.787Z"
             },
             {
               "$type": "Document",
@@ -214,8 +211,7 @@
               "RelativeToolTip": "TrainingManagement\\ERP.TrainingManagement.DataServices\\Repository\\Interfaces\\IFileRepository.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAABQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T17:56:45.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T17:56:45.514Z"
             },
             {
               "$type": "Document",
@@ -227,8 +223,7 @@
               "RelativeToolTip": "TrainingManagement\\ERP.TrainingManagement.DataServices\\Repository\\Interfaces\\IInternshipVacancyRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T17:41:52.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T17:41:52.147Z"
             },
             {
               "$type": "Document",
@@ -240,8 +235,7 @@
               "RelativeToolTip": "TrainingManagement\\ERP.TrainingManagement.DataServices\\Repository\\InternshipVacancyRepository.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T17:52:16.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T17:52:16.826Z"
             },
             {
               "$type": "Document",
